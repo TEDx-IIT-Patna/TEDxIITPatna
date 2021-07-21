@@ -70,7 +70,9 @@
       width: 100%;
     }
 
-    .dropdown-content a:hover {background-color: #ddd;}
+    .dropdown-content a:hover {
+      color: black;
+      background-color: #ddd;}
 
     .dropdown:hover .dropdown-content {
       display: block;
@@ -122,7 +124,7 @@
                         <li><a href="index.html">Home</a></li>
                       <li style=""><a href="https://www.tedxiitpatna.com/register/form.html"><span style="color: #FFf; background:#ff0000; height: 50px; padding: 10px">Register</span></a></li>
                       <div class="dropdown" id="Gallery">
-                      <li style="list-style: none;">
+                      <li class="active" style="list-style: none;">
                         <a href="#" style="padding: 10px;">GALLERY</a></li>
                         <div class="dropdown-content">
                         <a href="gallery.html">Photos</a>
@@ -165,12 +167,12 @@
       <div class="container gallery-container">
         <div class="tz-gallery">
           <div class="heading-with-border text-center mb-5">
-            <h2 class="heading text-uppercase" style="padding-top: 10px;">Photos from previous edition</h2>
+            <h2 class="heading text-uppercase" style="padding-top: 10px;" style="margin-bottom: 0;">Photos from previous edition</h2>
           </div>
 
 
 
-          <div class="row">
+          <div class="row" style="margin-bottom: 20px;">
             <div class="col-sm-6 col-md-4">
               <a class="lightbox" href="images/gallery/g1.jpg">
                 <img src="images/gallery/g1.jpg" alt="Tunnel" />
