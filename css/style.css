@@ -884,6 +884,12 @@ a:hover {
   .site-block-half .text {
     padding: 8rem;
   }
+  .site-navbar-wrap>.container {
+    min-width: 1100px;
+  max-width: 1800px !important;
+  margin-right: -70px !important;
+  /* margin-left: 0px !important; */
+}
 }
 
 .site-block-half .bg-image {
@@ -1638,6 +1644,7 @@ a:hover {
 .block-schedule .container {
   position: relative;
   z-index: 10;
+  
 }
 .block-schedule .row-wrap {
   margin-left: 15px;
