@@ -95,7 +95,7 @@ a:hover {
   font-size: 0.9rem;
 }
 
-}
+
 .btn.pill {
   border-radius: 30px !important;
 }
@@ -263,13 +263,13 @@ a:hover {
 
 /* Navbar */
 .site-navbar-wrap {
-  background: #1f1f1f !important;
+  background: #ffffff !important;
   position: relative;
   z-index: 99;
   width: 100%;
 }
 .site-navbar-wrap a {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 .site-navbar-wrap .site-navbar-top {
   font-size: 0.8rem;
@@ -277,14 +277,14 @@ a:hover {
 
 .site-navbar-top,
 .site-navbar {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .site-navbar {
   margin-bottom: 0px;
   width: 100%;
   border-bottom: none;
-  background: #1f1f1f !important;
+  background: #ffffff !important;
 }
 .site-navbar .site-logo {
   font-weight: 200;
@@ -292,13 +292,15 @@ a:hover {
 .site-navbar .site-logo a {
   font-weight: 200;
   font-size: 26px;
-  color: #fff;
+  color: rgb(36, 36, 36);
 }
 .site-navbar .site-navigation .site-menu {
   margin-bottom: 0;
 }
 .site-navbar .site-navigation .site-menu .active > a {
-  color: #fff;
+  color: rgb(0, 0, 0);
+  background-color: red;
+  color: white;
 }
 .site-navbar .site-navigation .site-menu a {
   text-decoration: none !important;
@@ -313,12 +315,14 @@ a:hover {
   padding: 10px 10px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgb(0, 0, 0);
   font-size: 15px;
   text-decoration: none !important;
 }
 .site-navbar .site-navigation .site-menu > li > a:hover {
-  color: #fff;
+  color: rgb(0, 0, 0);
+  background-color: red;
+  color: white;
 }
 .site-navbar .site-navigation .site-menu > li:last-child {
   padding-right: 0;
