@@ -39,6 +39,52 @@
       .full-screen {
         height: 90vh;
       }
+      <style>
+      .dropbtn {
+        background-color: none;
+        opacity: 100%;
+        color: White;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+      }
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        min-width: 160px;
+        width: 100%;
+      }
+
+      .dropdown-content a {
+        color: black;
+        padding: 16px 16px;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+      }
+
+      .dropdown-content a:hover {background-color: #ddd;}
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin-right: 0;
+        padding-right: 0;
+      }
+
+      .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+      </style>
     </style>
  </head>
  <body style="background: #F1EEEE;">
@@ -78,12 +124,14 @@
                       <ul class="site-menu js-clone-nav d-none d-lg-block">
                         <li><a href="index.html">Home</a></li>
                       <li style=""><a href="https://www.tedxiitpatna.com/register/form.html"><span style="color: #FFf; background:#ff0000; height: 50px; padding: 10px">Register</span></a></li>
-                        <li>
-                          <a href="gallery.html">Gallery</a>
-                        </li>
-                        <li class="active">
-                          <a href="videos.html">Videos</a>
-                        </li>
+                      <div class="dropdown" id="Gallery">
+                      <li style="list-style: none;">
+                        <a href="#" style="padding: 10px;">GALLERY</a></li>
+                        <div class="dropdown-content">
+                        <a href="gallery.html">Photos</a>
+                        <a href="videos.html">Videos</a>
+                          </div>
+                        </div>
                         <li><a href="team.html">Team</a></li>
                         <li ><a href="spk.html">Speakers</a></li>
                         <li><a href="sponsor.html">Sponsors</a></li>
@@ -112,23 +160,18 @@
         <div class="container">
 
           <div class="heading-with-border text-center mb-5">
-            <h2 class="heading text-uppercase">Videos from 1st edition held on 13th November 2016</h2>
+            <h2 class="heading text-uppercase">Videos from previous editions</h2>
           </div>
 
           <div class="row">
-              <div class="col-md-3"></div>
               <div class="col-md-6 col-xs-12">
-                <iframe width="100%" height="315" style="margin-bottom: 30px;" src="https://www.youtube.com/embed/MiSbmP_VA38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="100%" height="315" style="margin-bottom: 30px;" src="https://www.youtube.com/embed/LjuAimWKBjs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
-              <div class="col-md-3"></div>
-              <div class="col-md-3"></div>
               <div class="col-md-6 col-xs-12">
                 <iframe width="100%" height="315" style="margin-bottom: 30px;" src="https://www.youtube.com/embed/MhhvNLztZKI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
-              <div class="col-md-3"></div>
-              <div class="col-md-3"></div>
               <div class="col-md-6 col-xs-12">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/LjuAimWKBjs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="100%" height="315" style="margin-bottom: 30px;" src="https://www.youtube.com/embed/MiSbmP_VA38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
           </div>
         </div>
