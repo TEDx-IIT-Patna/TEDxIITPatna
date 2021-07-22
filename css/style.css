@@ -298,7 +298,9 @@ a:hover {
   margin-bottom: 0;
 }
 .site-navbar .site-navigation .site-menu .active > a {
-  color: black;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
 }
 .site-navbar .site-navigation .site-menu a {
   color: #3c3636d1;
@@ -324,9 +326,9 @@ a:hover {
 .site-navbar .site-navigation .site-menu > li:last-child {
   padding-right: 0;
 }
-.site-navbar .site-navigation .site-menu > li:last-child > a {
+/*.site-navbar .site-navigation .site-menu > li:last-child > a {
   padding-right: 0;
-}
+} */
 .site-navbar .site-navigation .site-menu .has-children {
   position: relative;
 }
@@ -1961,8 +1963,7 @@ font-family: "icomoon";
 }
 #kala{
   text-transform: uppercase;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding: 10px;
 }
 #kala:hover{
   color: black;
