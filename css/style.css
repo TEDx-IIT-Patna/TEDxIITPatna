@@ -307,6 +307,7 @@ a:hover {
   text-decoration: none !important;
   font-size: 15px;
   display: inline-block;
+  font-weight: bold;
 }
 .site-navbar .site-navigation .site-menu > li {
   display: inline-block;
@@ -1939,11 +1940,14 @@ a:hover {
 .dropdown{
   position: static;
 }
-@@media (min-width: 992px) {
+@media (min-width: 992px) {
   .dropdown-toggle{
     transition: all 0.3s
     cubic-bezier(0.5, 1, 0.7, 1);
   }
+}
+.visible{
+  height: 100px;
 }
 #GALLERY{
 color: #3c3636d1;
@@ -1968,10 +1972,76 @@ font-family: "icomoon";
 #kala:hover{
   color: black;
 }
+.logo {
+  width:330px;
+  height:85px;
+}
 @media only screen and (max-width:991.98px){
   #kala {
     font-size: 20px;
     text-transform: none;
     padding-left: 20px;
   }
+  .logo{
+    width: 290px;
+  }
+  .dropdown-content {
+    color: #f7f9fa;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    min-width: 100%;
+    width: 100%;
+  }
 }
+.dropbtn {
+  background-color: none;
+  opacity: 100%;
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  color: white;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  color: #f7f9fa;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  min-width: 80px;
+  width: 100%;
+}
+
+.dropdown-content a {
+  color: #f7f9fa;
+  opacity: 100%;
+  padding: 16px 16px;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+.dropdown-content a:hover {
+  color: black;
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  text-align: left;
+  width: 100%;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
