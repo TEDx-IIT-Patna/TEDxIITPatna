@@ -45,56 +45,6 @@
     }
 }
 
-.dropbtn {
-  background-color: none;
-  opacity: 100%;
-  color: black;
-  padding: 10px;
-  font-size: 16px;
-  border: none;
-}
-
-.dropdown {
-  color: #3c3636d1;
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  color: #3c3636d1;
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  min-width: 80px;
-  width: 100%;
-}
-
-.dropdown-content a {
-  color: #3c3636d1;
-  opacity: 100%;
-  padding: 16px 16px;
-  text-decoration: none;
-  display: block;
-  width: 100%;
-}
-
-.dropdown-content a:hover {
-  color: black;
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-  text-align: left;
-  width: 100%;
-  margin-right: 0;
-  padding-right: 0;
-}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-
   </style>
 
 </head>
@@ -132,7 +82,7 @@
             <div class="row align-items-center">
               <div class="col-2">
                 <h2 class="mb-0 site-logo">
-                  <a href="index.html"><img src="Logos/White linear.png" style="width:290px; height:85px;" /></a>
+                  <a href="index.html"><img class="logo" src="Logos/White linear.png" /></a>
                 </h2>
               </div>
               <div class="col-10">
@@ -156,11 +106,12 @@
                       </li>-->
                       <div class="dropdown" id="Gallery">
                       <li style="list-style: none;">
-                        <a id="kala" href="#">Gallery</a></li>
+                        <a id="kala" class="galry" href="#">Gallery</a></li>
                         <div class="dropdown-content">
-                        <a href="gallery.html">Photos</a>
-                        <a href="videos.html">Videos</a>
+                          <a href="gallery.html">Photos</a>
+                          <a href="videos.html">Videos</a>
                           </div>
+
                         </div>
 
                         <li><a href="team.html">Team</a></li>
