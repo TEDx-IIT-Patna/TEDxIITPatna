@@ -1975,7 +1975,9 @@ display: inline;
 
   .marquee1 {
     margin-left: 100px;
-    width: 1500px
+    
+    width: 1200px;
+    margin-right: 100px;
   }
   .heading{
     margin-left: 0px !important;
@@ -1995,5 +1997,32 @@ display: inline;
       margin-bottom: 20px ;
     }
   }
+  @media (min-width:1600px) {
+  
+
+    .marquee1 {
+      margin-left: 100px;
+      
+      width: 1400px;
+      margin-right: 100px;
+    }
+    .heading{
+      margin-left: 0px !important;
+      }
+  
+  
+      .mainc{
+        min-width: 1300px;
+      }
+  
+      .fb-embed {
+        
+        margin-top: -330px;
+        text-align: left;
+        color: black;
+        font-size: 24px;
+        margin-bottom: 20px ;
+      }
+    }
 
 
