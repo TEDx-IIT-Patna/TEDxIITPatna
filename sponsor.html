@@ -1,7 +1,7 @@
  <!DOCTYPE html>
  <html lang="en">
  <head>
-  <title>TEDxIITPatna | Sponsors</title>
+  <title>TEDxIITPatnaLive | Sponsors</title>
   <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -39,6 +39,57 @@
       .full-screen {
         height: 90vh;
       }
+
+      .dropbtn {
+        background-color: none;
+        opacity: 100%;
+        color: White;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+      }
+
+      .dropdown {
+        color: #3c3636d1;
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        color: #3c3636d1;
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        min-width: 80px;
+        width: 100%;
+      }
+
+      .dropdown-content a {
+        color: #3c3636d1;
+        opacity: 100%;
+        padding: 16px 16px;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+      }
+
+      .dropdown-content a:hover {
+        color: black;
+        background-color: #ddd;}
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin-right: 0;
+        padding-right: 0;
+      }
+
+      .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
     </style>
  </head>
  <body style="background: #F1EEEE;">
@@ -56,11 +107,11 @@
       <div class="site-navbar-wrap bg-white" id="sticky">
         <div class="container">
           <div class="site-navbar bg-light">
-            <div class="py-1">
+            <div class="py-1" style="background-color:white;">
               <div class="row align-items-center">
                 <div class="col-2">
                   <h2 class="mb-0 site-logo">
-                    <a href="index.html"><img src="images/logo.PNG"/></a>
+                    <a href="index.html"><img class="logo" src="Logos/White linear.png"/></a>
                   </h2>
                 </div>
                 <div class="col-10">
@@ -77,20 +128,26 @@
                       </div>
                       <ul class="site-menu js-clone-nav d-none d-lg-block">
                         <li><a href="index.html">Home</a></li>
-                      <li style=""><a href="https://www.tedxiitpatna.com/register/form.html"><span style="color: #FFf; background:#ff0000; height: 50px; padding: 10px">Register</span></a></li>
-                        <li>
-                          <a href="gallery.html">Gallery</a>
-                        </li>
-                        <li>
-                          <a href="videos.html">Videos</a>
-                        </li>
+                    <!--  <li style=""><a href="https://www.tedxiitpatna.com/register/form.html"><span style="color: #FFf; background:#ff0000; height: 50px; padding: 10px">Register</span></a></li>-->
+                    <div class="dropdown" id="Gallery">
+                    <li style="list-style: none;">
+                      <a id="kala" class="galry" href="#">Gallery</a></li>
+                      <div class="dropdown-content">
+                        <a href="gallery.html">Photos</a>
+                        <a href="videos.html">Videos</a>
+                        </div>
+                      </div>
+                      <div class="gora">
+                      <li><a href="gallery.html">Photos</a></li>
+                      <li><a href="videos.html">Videos</a></li>
+                      </div>
                         <li><a href="team.html">Team</a></li>
                         <li ><a href="spk.html">Speakers</a></li>
                         <li class="active"><a href="sponsor.html">Sponsors</a></li>
                         <!-- <li><a</li> -->
                         <!-- <li><a href="index.html#sch">Schedule</a></li>
                       <li><a href="index.html#spk">Speakers</a></li> -->
-                        <li><a href="#foo">Contact</a></li>
+                      <!--  <li><a href="#foo">Contact</a></li>-->
                       </ul>
                     </div>
                   </nav>
@@ -99,19 +156,19 @@
             </div>
           </div>
         </div>
-      </div>     
-     
-      
-      
+      </div>
+
+
+
         <br />
         <br />
         <br />
         <br />
         <br />
-        <br />          
+        <br />
         <div class="container">
           <div class="heading-with-border text-center mb-5">
-            <h2 class="heading text-uppercase" style="font-size: 30px;"><strong>Sponsors</strong></h2>
+            <h2 class="heading text-uppercase" style="font-size: 30px;"><strong>Previous Sponsors</strong></h2>
           </div>
           <div class="row">
             <div class="col-md-6 col-lg-4 mb-5">
@@ -190,7 +247,7 @@
         <br />
         <br />
         <br />
-      
+
 
   </div>
 

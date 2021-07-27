@@ -1,7 +1,7 @@
  <!DOCTYPE html>
  <html lang="en">
  <head>
- 	<title>TEDxIITPatna | Speakers</title>
+ 	<title>TEDxIITPatnaLive | Speakers</title>
  	<meta charset="utf-8" />
     <meta
       name="viewport"
@@ -11,7 +11,7 @@
   <meta property="og:image" content="https://www.tedxiitpatna.com/images/theme.jpg">
   <meta property="og:url" content="https://www.tedxiitpatna.com/videos.html">
     <link
-      href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+          href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
       rel="stylesheet"
     />
     <link
@@ -54,6 +54,57 @@
       .description {
         font-size: 15px;
       }
+
+      .dropbtn {
+        background-color: none;
+        opacity: 100%;
+        color: White;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+      }
+
+      .dropdown {
+        color: #3c3636d1;
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        color: #3c3636d1;
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        min-width: 80px;
+        width: 100%;
+      }
+
+      .dropdown-content a {
+        color: #3c3636d1;
+        opacity: 100%;
+        padding: 16px 16px;
+        text-decoration: none;
+        display: block;
+        width: 100%;
+      }
+
+      .dropdown-content a:hover {
+        color: black;
+        background-color: #ddd;}
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin-right: 0;
+        padding-right: 0;
+      }
+
+      .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
     </style>
  </head>
  <body style="background: #F1EEEE;">
@@ -71,11 +122,11 @@
       <div class="site-navbar-wrap bg-white" id="sticky">
         <div class="container">
           <div class="site-navbar bg-light">
-            <div class="py-1">
+            <div class="py-1" style="background-color:white;">
               <div class="row align-items-center">
                 <div class="col-2">
                   <h2 class="mb-0 site-logo">
-                    <a href="index.html"><img src="images/logo.PNG"/></a>
+                    <a href="index.html"><img class="logo" src="Logos/White linear.png"/></a>
                   </h2>
                 </div>
                 <div class="col-10">
@@ -92,19 +143,25 @@
                       </div>
                       <ul class="site-menu js-clone-nav d-none d-lg-block">
                         <li><a href="index.html">Home</a></li>
-                      <li style=""><a href="https://www.tedxiitpatna.com/register/form.html"><span style="color: #FFf; background:#ff0000; height: 50px; padding: 10px">Register</span></a></li>
-                        <li>
-                          <a href="gallery.html">Gallery</a>
-                        </li>
-                        <li>
-                          <a href="videos.html">Videos</a>
-                        </li>
+                    <!--  <li style=""><a href="https://www.tedxiitpatna.com/register/form.html"><span style="color: #FFf; background:#ff0000; height: 50px; padding: 10px">Register</span></a></li>-->
+                    <div class="dropdown" id="Gallery">
+                    <li style="list-style: none;">
+                      <a id="kala" class="galry" href="#">Gallery</a></li>
+                      <div class="dropdown-content">
+                        <a href="gallery.html">Photos</a>
+                        <a href="videos.html">Videos</a>
+                        </div>
+                      </div>
+                      <div class="gora">
+                      <li><a href="gallery.html">Photos</a></li>
+                      <li><a href="videos.html">Videos</a></li>
+                      </div>
                         <li><a href="team.html">Team</a></li>
                         <li class="active"><a href="spk.html">Speakers</a></li>
-                        <li><a href="sponsor.html">Sponsors</a></li>
-                        <!-- <li><a href="index.html#sch">Schedule</a></li>
+                     <!--     <li><a href="sponsor.html">Sponsors</a></li>
+                        <li><a href="index.html#sch">Schedule</a></li>
                       <li><a href="index.html#spk">Speakers</a></li> -->
-                        <li><a href="#foo">Contact</a></li>
+                    <!--    <li><a href="#foo">Contact</a></li>-->
                       </ul>
                     </div>
                   </nav>
@@ -113,10 +170,10 @@
             </div>
           </div>
         </div>
-      </div>     
-     
-      
-      
+      </div>
+
+
+
         <br />
         <br />
         <br />
@@ -193,8 +250,8 @@
                 <div class="container">
                 <h1 class="mb-3" style="margin-top: 20px;">Dr Prashant Jha</h1>
                 <p>
-                "Try not to become a man of success. Rather become a man of values." 
-                  Dr Prashant Jha is a true example of that. Being so modest as well as achieving success at the same is one of the many qualities one can take from the man itself. 
+                "Try not to become a man of success. Rather become a man of values."
+                  Dr Prashant Jha is a true example of that. Being so modest as well as achieving success at the same is one of the many qualities one can take from the man itself.
               </p>
               <p>
                 He graduated in medicine (MBBS) and studied Family Medicine for his post-graduation. He trained as a Physician in India. And then as a GP with RCGP, London. Then as an Intensivist and a Clinical researcher.
@@ -282,14 +339,14 @@
               </div>
             </div>
           </div>
-          
+
         </div>
-      		
-      
+
+
       	<br />
       	<br />
       	<br />
-      
+
 
  	</div>
 
