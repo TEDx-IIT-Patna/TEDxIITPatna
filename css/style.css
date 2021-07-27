@@ -263,10 +263,7 @@ a:hover {
 /* Navbar */
 .site-navbar-wrap {
   background: White !important;
-
   position: fixed;
-
-  
 
   z-index: 99;
   width: 100%;
@@ -1999,10 +1996,8 @@ font-family: "icomoon";
   }
   .logo{
     width: 290px;
-
     left: 5px;
     top: 6px;
-
   }
 
   .dropdown-content {
