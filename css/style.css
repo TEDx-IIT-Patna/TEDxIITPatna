@@ -95,7 +95,6 @@ a:hover {
   font-size: 0.9rem;
 }
 
-}
 .btn.pill {
   border-radius: 30px !important;
 }
@@ -264,7 +263,11 @@ a:hover {
 /* Navbar */
 .site-navbar-wrap {
   background: White !important;
-  position: relative;
+
+  position: fixed;
+
+  
+
   z-index: 99;
   width: 100%;
 }
@@ -1996,6 +1999,10 @@ font-family: "icomoon";
   }
   .logo{
     width: 290px;
+
+    left: 5px;
+    top: 6px;
+
   }
 
   .dropdown-content {
@@ -2013,9 +2020,6 @@ font-family: "icomoon";
   #kala {
     font-size: 15px;
     text-transform: uppercase;
-  }
-  .logo{
-    width: 290px;
   }
   .gora{
     display: none;
