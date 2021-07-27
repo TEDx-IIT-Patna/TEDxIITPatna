@@ -1,30 +1,19 @@
 <!DOCTYPE html>
-<html lang="en"> 
+<html lang="en">
   <head>
-    <title>TEDxIITPatna | Team</title>
+    <title>TEDxIITPatnaLive | Team</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta property="og:title" content="TEDxIITPatna | Team">
     <meta property="og:image" content="https://www.tedxiitpatna.com/images/theme.jpg">
     <meta property="og:url" content="https://www.tedxiitpatna.com/team.html">
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
-  
+
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
-  <link
-      href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css"
-    />
-    <link rel="icon" type="image/png" href="images/icon.png" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900|Roboto+Mono:300,400,500"
-    />
-      
+
+
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
 
@@ -38,18 +27,68 @@
     <link rel="stylesheet" href="css/countdown.css" >
     <link rel="icon" type="image/png" href="images/icon.png" />
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-  
+
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/team.css">
 
+    <style>
+    .dropbtn {
+      background-color: none;
+      opacity: 100%;
+      color: White;
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+    }
 
-    
-    
+    .dropdown {
+      color: #3c3636d1;
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      color: #3c3636d1;
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      min-width: 80px;
+      width: 100%;
+    }
+
+    .dropdown-content a {
+      color: #3c3636d1;
+      opacity: 100%;
+      padding: 16px 16px;
+      text-decoration: none;
+      display: block;
+      width: 100%;
+    }
+
+    .dropdown-content a:hover {
+      color: black;
+      background-color: #ddd;}
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin-right: 0;
+      padding-right: 0;
+    }
+
+    .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+    </style>
+
   </head>
   <body  style="background: #F1EEEE;">
-  <!-- paste here -->
+
+
   <div class="site-wrap">
     <div class="site-mobile-menu">
       <div class="site-mobile-menu-header">
@@ -58,17 +97,18 @@
         </div>
       </div>
       <div class="site-mobile-menu-body"></div>
-    </div>
-    <!-- .site-mobile-menu -->
 
-    <div class="site-navbar-wrap bg-light" id="sticky">
-      <div class="container  ">
+    </div> <!-- .site-mobile-menu -->
+
+    <div class="site-navbar-wrap bg-white">
+      <div class="container">
         <div class="site-navbar bg-light">
-          <div class="py-1">
-            <div class="row align-items-center ">
-              <div class="col-5">
+          <div class="py-1" style="background-color:white;">
+            <div class="row align-items-center">
+              <div class="col-2">
+
                 <h2 class="mb-0 site-logo">
-                  <a href="index.html"><img src="images/logo.PNG" /></a>
+                  <a href="index.html"><img class="logo" src="Logos/White linear.png"/></a>
                 </h2>
               </div>
               <div class="col-7">
@@ -80,27 +120,34 @@
                     </div>
 
                     <ul class="site-menu js-clone-nav d-none d-lg-block">
-                      <li class="a"><a href="index.html">Home</a></li>
 
-                      <li style=""><a href="https://www.tedxiitpatna.com/register/form.html"><span style="color: #FFf; background:#ff0000; height: 50px; padding: 10px">Register</span></a></li>
+                      <li><a href="index.html">Home</a></li>
+                    <!--  <li style=""><a href="https://www.tedxiitpatna.com/register/form.html"><span style="color: #FFf; background:#ff0000; height: 50px; padding: 10px">Register</span></a></li>-->
+
                       <!--  <li class="has-children">
                         <a href="#">About</a>
                        <ul class="dropdown arrow-top">
                           <li><a href="#abt">About</a></li>
-                          
                         </ul>
                       </li>-->
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li>
+                      <div class="dropdown" id="Gallery">
+                      <li style="list-style: none;">
+                        <a id="kala" class="galry" href="#">Gallery</a></li>
+                        <div class="dropdown-content">
+                          <a href="gallery.html">Photos</a>
                           <a href="videos.html">Videos</a>
-                        </li>
+                          </div>
+                        </div>
+                        <div class="gora">
+                        <li><a href="gallery.html">Photos</a></li>
+                        <li><a href="videos.html">Videos</a></li>
+                        </div>
                         <li class="active"><a href="team.html">Team</a></li>
                         <li ><a href="spk.html">Speakers</a></li>
-                        <li><a href="sponsor.html">Sponsors</a></li>
-                        <!--  <li><a href="#sch">Schedule</a></li>
-
+                       <!--   <li><a href="sponsor.html">Sponsors</a></li>
+                         <li><a href="#sch">Schedule</a></li>
                       <li><a href="#spk">Speakers</a></li>-->
-                      <li><a href="#foo">Contact</a></li>
+                    <!--  <li><a href="#foo">Contact</a></li> -->
                     </ul>
                   </div>
                 </nav>
@@ -111,9 +158,11 @@
       </div>
     </div>
 
-      
-      
-   <br><br><br><br>
+
+
+
+
+
      <section class="our-team-section">
         <div class="heading-with-border text-center mb-5">
           <h2 class="heading text-uppercase " style="font-size: 30px;">Team</h2>
@@ -166,13 +215,16 @@
                     </div>
                 </div>
               </div>
-              <div class="text-uppercase text-center h5 mb-4">
-                    Core
-                  </div>
-                  <div class="row mb-5">
-                
-              <!-- <div class="col-lg-1"></div> -->
-              <div class="col-lg-4 col-md-6 col-sm-6">
+
+          <div class="text-uppercase text-center h5 mb-4">
+            Finance and sponsorship
+          </div>
+            <div class="row mb-5">
+                <!-- <div class="col-lg-1"></div>    -->
+                <div class="col-lg-4">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+
                     <div class="our-team">
                         <div class="pic">
                             <img src="./images/team/Harshvardhan Singh.jpg">
@@ -186,6 +238,18 @@
                         </ul>
                     </div>
                 </div>
+
+                <div class="col-lg-4 ">
+                </div>
+
+            </div>
+
+              <div class="text-uppercase text-center h5 mb-4">
+                  Design and web
+              </div>
+              <div class="row mb-5">
+                <!-- <div class="col-lg-1"></div>    -->
+
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="our-team">
                         <div class="pic">
@@ -217,32 +281,22 @@
                         </ul>
                     </div>
                 </div>
-               <!--  <div class="col-lg-2"></div> -->
-            </div>
-          <div class="text-uppercase text-center h5 mb-4">
-            Finance and sponsorship
-          </div>
-          <div class="row mb-5">
-            <div class="col-lg-2"></div>              
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="our-team">
-                    <div class="pic">
-                        <img src="./images/team/Aditya_Goyal.jpg">
-                    </div>
-                    <div class="team-content">
-                        <h3 class="title">Aditya Goyal</h3>
-                       <!--  <span class="post">Physiotherapeut </span> -->
-                    </div>
-                    <ul class="social">
-                        <!-- <li><a class="facebook" href="https://www.facebook.com/bharadwaj.nayanar" target="_blank"><i class="fa fa-facebook"></i></a></li> -->
-                        <!-- <li><a class="linkedin" href="https://www.linkedin.com/in/bharadwaj-nayanar-436aa6148/" target="_blank"><i class="fa fa-linkedin"></i></a></li> -->
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-6">
-                <div class="our-team">
-                    <div class="pic">
-                        <img src="./images/team/Ayush Sahu.jpg">
+
+
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="our-team">
+                        <div class="pic">
+                            <img src="./images/team/tm8.JPG">
+                        </div>
+                        <div class="team-content">
+                            <h3 class="title">Yash Choudhary</h3>
+                            <!-- <span class="post">Geschäftsführer</span> -->
+                        </div>
+                        <ul class="social">
+                            <li><a class="facebook" href="https://www.facebook.com/yash.choudhary.3994" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li><a class="linkedin" href="https://www.linkedin.com/in/yashchoudhary151/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+
                     </div>
                     <div class="team-content">
                         <h3 class="title">Ayush Sahu</h3>
@@ -465,7 +519,7 @@
     ></iframe>
 
 
-    
+
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/jquery-ui.js"></script>
@@ -494,6 +548,6 @@
 
       gtag("config", "UA-136909677-1");
     </script>
-  
+
   </body>
 </html>
