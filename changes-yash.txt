@@ -1,0 +1,7 @@
+Changes made-
+1.Nav bar now has gap b/w the logo andlinks
+2.Teams nav bar made sticky
+3.footer made white
+4. Team pics changed
+5. Added coming soon card to Speakers
+
