@@ -298,9 +298,7 @@ a:hover {
   margin-bottom: 0;
 }
 .site-navbar .site-navigation .site-menu .active > a {
-  color: white;
-  background-color: red;
-  border-radius: 5px;
+  color: red;
 }
 .site-navbar .site-navigation .site-menu a {
   color: #3c3636d1;
@@ -1665,7 +1663,7 @@ a:hover {
 .block-schedule .container {
   position: relative;
   z-index: 10;
-  
+
 }
 .block-schedule .row-wrap {
   margin-left: 15px;
@@ -2078,3 +2076,24 @@ font-family: "icomoon";
 }
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+@media (min-device-width: 1200px) {
+  .site-navbar{
+    margin-left: -100px;
+  }
+}
+@media (min-device-width: 1400px) {
+  .site-navbar{
+    margin-left: -50px;
+  }
+}
+@media (min-device-width: 1600px) {
+  .site-navbar{
+    margin-left: 50px;
+  }
+}
+
+@media (min-device-width: 1700px) {
+  .site-navbar{
+    margin-left: 100px;
+  }
+}
