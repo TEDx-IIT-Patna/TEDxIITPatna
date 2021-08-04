@@ -2266,7 +2266,9 @@ marquee > h2 {
   .prevspons{
     margin-left: 18%;
   }
+  
 }
+
 
 @media (min-device-width: 1200px) { 
   .site-navbar{
@@ -2290,6 +2292,3 @@ marquee > h2 {
   }
 }
 
-
-
-  
