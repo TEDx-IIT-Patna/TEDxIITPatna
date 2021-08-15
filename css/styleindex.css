@@ -9,7 +9,7 @@ body {
   font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-
+   
 }
 
 ::-moz-selection {
@@ -113,7 +113,7 @@ a:hover {
   background: black;
 }
 .fb-embed {
-
+  
   margin-top: 0px;
   text-align: center;
   color: black;
@@ -301,7 +301,7 @@ a:hover {
   margin-bottom: 0;
 }
 .site-navbar .site-navigation .site-menu .active > a {
-  color: red;
+  color: red;  
 }
 .site-navbar .site-navigation .site-menu a {
   color: #3c3636d1;
@@ -1680,7 +1680,7 @@ a:hover {
 .block-schedule .container {
   position: relative;
   z-index: 10;
-
+  
   }
   @media (min-width: 1200px) {
     .block-schedule .container {
@@ -1689,7 +1689,7 @@ a:hover {
       margin-left: 100px;
       }
     }
-
+  
 }
 .block-schedule .row-wrap {
   margin-left: 15px;
@@ -2090,20 +2090,20 @@ marquee > h2 {
 @media (min-width: 400px) {
   .heading{
     margin-left: -100px !important;
-
+    
   }
   .likeusfb{
     text-align: left;
   }
 }
 @media (min-width:1200px) {
-
+  
 
   .marquee1 {
     margin-left: 100px;
-
+    
     width: 1000px;
-
+    
   }
   .heading{
     margin-left: 0px !important;
@@ -2114,7 +2114,7 @@ marquee > h2 {
       position: relative;
       display: inline-block;
     }
-
+    
     .dropdown-content {
       color: #f7f9fa;
       display: none;
@@ -2125,7 +2125,7 @@ marquee > h2 {
       min-width: 80px;
       width: 100%;
     }
-
+    
     .dropdown-content a {
       color: #f7f9fa;
       opacity: 100%;
@@ -2134,12 +2134,12 @@ marquee > h2 {
       display: block;
       width: 100%;
     }
-
+    
     .dropdown-content a:hover {
       color: black;
       background-color: #ddd;
     }
-
+    
     .dropdown:hover .dropdown-content {
       display: block;
       text-align: left;
@@ -2147,19 +2147,19 @@ marquee > h2 {
       margin-right: 0;
       padding-right: 0;
     }
-
+    
     .dropdown:hover .dropbtn {background-color: #3e8e41;}
   }
 
 
 @media (min-width:1300px) {
-
+  
 
   .marquee1 {
     margin-left: 100px;
-
+    
     width: 1100px;
-
+    
   }
   .heading{
     margin-left: 0px !important;
@@ -2170,7 +2170,7 @@ marquee > h2 {
       position: relative;
       display: inline-block;
     }
-
+    
     .dropdown-content {
       color: #f7f9fa;
       display: none;
@@ -2181,7 +2181,7 @@ marquee > h2 {
       min-width: 80px;
       width: 100%;
     }
-
+    
     .dropdown-content a {
       color: #f7f9fa;
       opacity: 100%;
@@ -2190,12 +2190,12 @@ marquee > h2 {
       display: block;
       width: 100%;
     }
-
+    
     .dropdown-content a:hover {
       color: black;
       background-color: #ddd;
     }
-
+    
     .dropdown:hover .dropdown-content {
       display: block;
       text-align: left;
@@ -2203,7 +2203,7 @@ marquee > h2 {
       margin-right: 0;
       padding-right: 0;
     }
-
+    
     .dropdown:hover .dropbtn {background-color: #3e8e41;}
   }
 
@@ -2216,7 +2216,7 @@ marquee > h2 {
       /* text-align: left !important; */
     }
     .fb-embed {
-
+      
       margin-top: -330px;
       text-align: left ;
       color: black;
@@ -2225,25 +2225,25 @@ marquee > h2 {
     }
   }
   @media (min-width:1600px) {
-
+  
 
     .marquee1 {
       margin-left: 100px;
-
+      
       width: 1230px;
-
+      
     }
     .heading{
       margin-left: 0px !important;
       }
-
-
+  
+  
       .mainc{
         min-width: 1300px;
       }
-
+  
       .fb-embed {
-
+        
         margin-top: -330px;
         text-align: left;
         color: black;
@@ -2251,7 +2251,7 @@ marquee > h2 {
         margin-bottom: 20px ;
       }
     }
-
+  
 
     .prevspons {
       margin-left: 10%;
@@ -2269,29 +2269,27 @@ marquee > h2 {
 }
 
 
-@media (min-device-width: 1200px) {
-
+@media (min-device-width: 1200px) { 
   .site-navbar{
     margin-left: -100px;
   }
 }
-@media (min-device-width: 1400px) {
+@media (min-device-width: 1400px) { 
   .site-navbar{
     margin-left: -50px;
   }
 }
-@media (min-device-width: 1600px) {
+@media (min-device-width: 1600px) { 
   .site-navbar{
     margin-left: 50px;
   }
 }
 
-@media (min-device-width: 1700px) {
+@media (min-device-width: 1700px) { 
   .site-navbar{
     margin-left: 100px;
   }
 }
-
 
 .heroimageindex{
  min-height: 600px;
