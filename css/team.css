@@ -1,3 +1,4 @@
+
 .our-team-section {
     position: relative;
     padding-top: 40px;
@@ -14,15 +15,17 @@
     height: 100px;
     float: left;
     z-index: 99;
-}
-.our-team {
+} 
+ .our-team {
     margin-bottom: 10px;
     padding: 30px 0 20px;
-    background: #b2aaa4;
+    background: #ffffff;
     text-align: center;
     overflow: hidden;
     position: relative;
+    border-radius: 5px;
     border-bottom: 5px solid #f23a2e;
+    box-shadow: 0 10px 10px 2px rgba(0, 0, 0, 0.2);
 }
 
 .our-team .pic{
@@ -49,7 +52,7 @@
 }
 .our-team:hover .pic:before{
     height: 100%;
-    background: #2f2f2f; 
+    background: #202020; 
  }
 .our-team .pic:after {
     content: "";
@@ -118,7 +121,7 @@
 .our-team .social li a:hover{
     color: #f23a2e;
     background: #f7f5ec;
-}
+} 
 @media only screen and (max-width: 990px){
     .our-team{ margin-bottom: 30px; }
 }

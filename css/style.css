@@ -95,7 +95,6 @@ a:hover {
   font-size: 0.9rem;
 }
 
-}
 .btn.pill {
   border-radius: 30px !important;
 }
@@ -264,7 +263,8 @@ a:hover {
 /* Navbar */
 .site-navbar-wrap {
   background: White !important;
-  position: relative;
+  position: fixed;
+
   z-index: 99;
   width: 100%;
 }
@@ -298,9 +298,7 @@ a:hover {
   margin-bottom: 0;
 }
 .site-navbar .site-navigation .site-menu .active > a {
-  color: white;
-  background-color: red;
-  border-radius: 5px;
+  color: red;
 }
 .site-navbar .site-navigation .site-menu a {
   color: #3c3636d1;
@@ -1665,7 +1663,7 @@ a:hover {
 .block-schedule .container {
   position: relative;
   z-index: 10;
-  
+
 }
 .block-schedule .row-wrap {
   margin-left: 15px;
@@ -1996,6 +1994,8 @@ font-family: "icomoon";
   }
   .logo{
     width: 290px;
+    left: 5px;
+    top: 6px;
   }
 
   .dropdown-content {
@@ -2013,9 +2013,6 @@ font-family: "icomoon";
   #kala {
     font-size: 15px;
     text-transform: uppercase;
-  }
-  .logo{
-    width: 290px;
   }
   .gora{
     display: none;
@@ -2079,3 +2076,24 @@ font-family: "icomoon";
 }
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+@media (min-device-width: 1200px) {
+  .site-navbar{
+    margin-left: -100px;
+  }
+}
+@media (min-device-width: 1400px) {
+  .site-navbar{
+    margin-left: -50px;
+  }
+}
+@media (min-device-width: 1600px) {
+  .site-navbar{
+    margin-left: 50px;
+  }
+}
+
+@media (min-device-width: 1700px) {
+  .site-navbar{
+    margin-left: 100px;
+  }
+}
