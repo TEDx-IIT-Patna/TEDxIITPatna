@@ -1117,6 +1117,7 @@ a:hover {
   top: 50% !important;
   bottom: auto !important;
   width: 100%;
+  
 }
 
 .slide-one-item.home-slider .owl-prev {
@@ -2292,3 +2293,71 @@ marquee > h2 {
   }
 }
 
+.heroimageindex{
+ min-height: 600px;
+ max-height: 80% !important;
+
+ /* width: 100%; */
+ background-color: black;
+ overflow: hidden;
+}
+/* .hrimg{
+  /* position: absolute; */
+  /* display: inline-block; */
+  /* width:100%; */
+  /* text-align: left;
+  min-height:inherit;
+  max-height: 100%;; */
+/* } */ 
+.hrimg{
+  position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.herop{
+  position: absolute;
+  z-index: 5;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  
+ 
+}
+
+@media (max-device-width:400px) { 
+ .m{
+   display: none;
+ }
+ .s{
+   display: none;
+ }
+
+ .xs{
+   display: inline;
+ }
+}
+@media (min-device-width:400px) { 
+  .m{
+    display: none;
+  }
+  .s{
+    display: inline;
+  }
+ 
+  .xs{
+    display: none;
+  }
+ }
+ @media (min-device-width:600px) { 
+  .m{
+     display: inline;
+  }
+  .s{
+   display: none;
+  }
+ 
+  .xs{
+    display: none;
+  }
+ }
