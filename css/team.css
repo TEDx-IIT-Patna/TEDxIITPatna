@@ -31,7 +31,7 @@
 .our-team .pic{
     display: inline-block;
     width: 230px;
-    height: 230px;
+    height: 235px;
     margin-bottom: 50px;
     z-index: 1;
     position: relative;
@@ -124,15 +124,4 @@
 } 
 @media only screen and (max-width: 990px){
     .our-team{ margin-bottom: 30px; }
-}
-
-.a {
- font-size: larger !important;   
-}
-
-.site-navbar-wrap>.container {
-    margin-left: 100px;
-    font-weight:bold ;
-    font-stretch: expanded;
-    margin-right: 100px;
 }
