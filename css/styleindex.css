@@ -908,9 +908,9 @@ a:hover {
   }
   .site-navbar-wrap>.container {
     min-width: 1100px;
-  max-width: 1800px !important;
-  margin-right: -70px !important;
-  /* margin-left: 0px !important; */
+    max-width: 1800px !important;
+    margin-right: -70px !important;
+    /* margin-left: 0px !important; */
 }
 }
 
@@ -1686,9 +1686,19 @@ a:hover {
     .block-schedule .container {
       position: relative;
       z-index: 10;
-      margin-left: 100px;
+      margin-left: 50px;
+      width: 98%;
+      /* overflow: hidden; */
+
       }
     }
+    @media (min-width: 1350px) {
+      .block-schedule .container {
+        position: relative;
+        z-index: 10;
+        margin-left: 100px;
+        }
+      }
   
 }
 .block-schedule .row-wrap {
@@ -2087,6 +2097,7 @@ marquee > h2 {
   font-size: 16px;
   border: none;
 }
+
 @media (min-width: 400px) {
   .heading{
     margin-left: -100px !important;
@@ -2100,13 +2111,13 @@ marquee > h2 {
   
 
   .marquee1 {
-    margin-left: 100px;
+    margin-left: 70px;
     
     width: 1000px;
     
   }
   .heading{
-    margin-left: 0px !important;
+    margin-left: -40px !important;
     }
   }
     .dropdown {
@@ -2151,7 +2162,8 @@ marquee > h2 {
     .dropdown:hover .dropbtn {background-color: #3e8e41;}
   }
 
-
+  
+ 
 @media (min-width:1300px) {
   
 
@@ -2162,7 +2174,7 @@ marquee > h2 {
     
   }
   .heading{
-    margin-left: 0px !important;
+    margin-left: -40px !important;
     }
   }
     .dropdown {
@@ -2207,7 +2219,35 @@ marquee > h2 {
     .dropdown:hover .dropbtn {background-color: #3e8e41;}
   }
 
+  /* @media (min-width:1300px) {
+  
 
+    
+    .heading{
+      margin-left: -40px !important;
+      }
+
+    
+    } */
+    /* @media (min-width:1350px) {
+  
+
+    
+      .heading{
+        margin-left: 0px !important;
+        }
+  
+      
+      } */
+
+      /* @media (min-width:1350px) {
+  
+
+        
+        .heading{
+          margin-left: 0px !important;
+          }
+        } */
   @media (min-width:1300px) {
     .mainc{
       min-width: 1300px;
@@ -2215,6 +2255,7 @@ marquee > h2 {
     .likeusfb{
       /* text-align: left !important; */
     }
+   
     .fb-embed {
       
       margin-top: -330px;
@@ -2224,6 +2265,22 @@ marquee > h2 {
       margin-bottom: 20px ;
     }
   }
+
+  @media (min-width:1350px) {
+  
+
+    .marquee1 {
+      margin-left: 100px;
+      
+      width: 1000px;
+      
+    }
+
+    .heading{
+      margin-left: -0px !important;
+    }
+  }
+  
   @media (min-width:1600px) {
   
 
@@ -2311,6 +2368,7 @@ marquee > h2 {
   position: relative;
     left: 50%;
     transform: translateX(-50%);
+    /* width: 100%; */
 }
 .herop{
   position: absolute;
@@ -2360,25 +2418,64 @@ marquee > h2 {
   }
  }
 
-
-
- .wrapper {
-  height: 400px;
-  /* width: 1200px; */
-  /* position:relative; */
-  /* left: 20%; */
-  /* transform: translateX(-50%); */
-  margin-top: 50px ;
-  margin-left: 230px;
-  /* margin-bottom: 20px; */
+ @media (min-device-width:0px) { 
+  .wrapper {
+   height: 400px;
+   /* width: 1200px; */
+   /* position:relative; */
+   /* left: 20%; */
+   /* transform: translateX(-50%); */
+   margin-top: 50px ;
+   margin-left: 230px;
+   /* margin-bottom: 20px; */
+   
   
+   /* VIA CSS MATIC https://goo.gl/cIbnS */
+   /* -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+   -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+   box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15); */
+   /* overflow: hidden; */
+ }
+  }
  
-  /* VIA CSS MATIC https://goo.gl/cIbnS */
-  /* -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
-  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15); */
-  /* overflow: hidden; */
-}
+ @media (min-device-width:1200px) { 
+  .wrapper {
+   height: 400px;
+   /* width: 1200px; */
+   /* position:relative; */
+   /* left: 20%; */
+   /* transform: translateX(-50%); */
+   margin-top: 50px ;
+   margin-left: 145px;
+   /* margin-bottom: 20px; */
+   
+  
+   /* VIA CSS MATIC https://goo.gl/cIbnS */
+   /* -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+   -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+   box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15); */
+   /* overflow: hidden; */
+ }
+  }
+  @media (min-device-width:1350px) { 
+    .wrapper {
+     height: 400px;
+     /* width: 1200px; */
+     /* position:relative; */
+     /* left: 20%; */
+     /* transform: translateX(-50%); */
+     margin-top: 50px ;
+     margin-left: 230px;
+     /* margin-bottom: 20px; */
+     
+    
+     /* VIA CSS MATIC https://goo.gl/cIbnS */
+     /* -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+     -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+     box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15); */
+     /* overflow: hidden; */
+   }
+    }
 
 .product-img {
   float: left;
@@ -2665,14 +2762,14 @@ span {
   .mer2img img{
     width: 100%;
     min-height: 400px;
-    max-height: 634px;
+    max-height: 440px;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
     /* margin: auto; */
     
     overflow: visible;
-    
+    background-image: url(/images/470x400.png) !important;
   }
 
   .btnmerch2{
