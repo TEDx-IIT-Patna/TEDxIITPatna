@@ -2485,10 +2485,11 @@ marquee > h2 {
 }
 
 .product-img img {
-  border-radius: 7px 0 0 7px;
+  /* border-radius: 7px 0 0 7px; */
   width: 920px;
   height: inherit;
-
+  border:25px solid #d6d4d4;
+  border-right: 10px;
 }
 
 .product-info {
@@ -2497,7 +2498,8 @@ marquee > h2 {
   width: 300px;
   /* border: #000 solid;
   border-bottom: #000 solid 2px; */
-  border-radius: 7px;
+  /* border-radius: 7px; */
+  border: 25px solid #d6d4d4;
   overflow: hidden;
   margin-left: 0px;
   
