@@ -2894,7 +2894,7 @@ flex-direction: row;
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 5rem;
   line-height: 6rem;
   /* identical to box height */
   color: #FFFFFF;
@@ -2911,7 +2911,7 @@ top: 25.41rem;
 font-family: Poppins;
 font-style: normal;
 font-weight: 600;
-font-size: 3rem;
+font-size: 4rem;
 line-height: 104%;
 /* or 50px */
 
@@ -2922,7 +2922,7 @@ color: #FFFFFF;
   display: flex;
   align-items: center;
   position: absolute;
-  width: 29.438rem;
+  width: 35%;
   height: 2.875rem;
   left: 5rem;
   top: 38.583rem;
@@ -2930,7 +2930,7 @@ color: #FFFFFF;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.125rem;
+  font-size: 2rem;
   line-height: 129.5%;
   /* or 23px */
 
