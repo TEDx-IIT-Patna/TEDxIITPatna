@@ -1,2 +1,3 @@
 # TedxIITPatna
-Website for TedxIITPatna. TedxIITPatna to be held on september 1.
+Website for TedxIITPatna Live. The event will be held in the second week of September.
+
