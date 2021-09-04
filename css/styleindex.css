@@ -2688,6 +2688,7 @@ span {
  .product-img{
    margin-left: calc(100px -30%);
    width: 450px;
+   background-image: none;
  }
  .product-img img{
   background-image: url(/images/470x400.png);
