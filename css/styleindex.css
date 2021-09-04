@@ -2960,6 +2960,15 @@ border-radius: 4px;
   width: 100%;
   height: 100%
 }
+tr{
+  color: white;
+  font-size: 3.5rem;
+}
+.timer p{
+  color: white;
+  font-size: 2.5rem;
+  margin: auto;
+}
 /* .product-price-btn button { */
   /* float: right; */
   /* display: inline-block;
