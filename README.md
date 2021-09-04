@@ -1,2 +1,2 @@
 # TedxIITPatna
-Website for TedxIITPatna. TedxIITPatna was held on september 1.
+Website for TedxIITPatna. TedxIITPatna to be held on september 1.
