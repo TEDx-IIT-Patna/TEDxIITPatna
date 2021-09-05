@@ -2037,8 +2037,8 @@ font-family: "icomoon";
   width:330px;
   height:70px;
   position: fixed;
-  top: 0;
-  left: 40px;
+  top: 3px;
+  left: 2px;
 }
 @media only screen and (max-width:991.98px){
   #kala {
@@ -2883,7 +2883,7 @@ flex-direction: row;
   flex-direction: column;
 }
 .roar{
-  display: flex;
+  /* display: flex; */
   align-items: center;
   position: absolute;
   width: 9.625rem;
@@ -2900,7 +2900,7 @@ flex-direction: row;
   color: #FFFFFF;
 }
 .acoustic{
-  display: flex;
+  /* display: flex; */
   align-items: center;
   position: absolute;
 width: 30.625rem;
@@ -2919,7 +2919,7 @@ line-height: 104%;
 color: #FFFFFF;
 }
 .wait{
-  display: flex;
+  /* display: flex; */
   align-items: center;
   position: absolute;
   width: 35%;
@@ -2969,6 +2969,177 @@ tr{
   font-size: 2.5rem;
   margin: auto;
 }
+@media (max-width: 992px){
+  .dodabba{
+    flex-direction: column;
+  }
+  .dabbaek{
+    width: 100%;
+    flex-direction: column;
+  }
+  .dabbaekek{
+    display: flex;
+  }
+  .dabbaekdo{
+    display: flex;
+  }
+  .dabbado{
+    width: 100%;
+  }
+  .roar{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 9.625rem;
+    height: 6rem;
+    left: 5rem;
+    top: 5.134rem;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 6rem;
+    /* identical to box height */
+    color: #FFFFFF;
+  }
+  .acoustic{
+    display: flex;
+    align-items: center;
+    position: absolute;
+  /* width: 30.625rem; */
+  height: 6.25rem;
+  left: 5rem;
+  top: 10rem;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 104%;
+  /* or 50px */
+
+
+  color: #FFFFFF;
+  }
+  .wait{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    /* width: 35%; */
+    height: 2.875rem;
+    left: 5rem;
+    top: 16.583rem;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 129.5%;
+    /* or 23px */
+
+
+    color: #FFFFFF;
+  }
+
+.timer{
+  display: flex;
+  position: absolute;
+width: 25%;
+height: 6%;
+left: 66%;
+top: 45%;
+background: #DE1212;
+border-radius: 4px;
+}
+.timer p{
+  color: white;
+  font-size: 1.5rem;
+  margin: auto;
+}
+}
+@media (max-width: 768px){
+  .acoustic{
+    font-size:
+  }
+  .dabbaek{
+    margin-top: 70px;
+    min-height: 380px;
+  }
+  .dabbado{
+    top: 700px;
+  }
+  .roar{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 9.625rem;
+    height: 6rem;
+    left: 3rem;
+    top: 6rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 6rem;
+    color: #FFFFFF;
+  }
+  .acoustic{
+    display: flex;
+      align-items: center;
+      position: absolute;
+      width: 69%;
+      height: 6.25rem;
+      left: 3rem;
+      top: 11rem;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 2.5rem;
+      line-height: 104%;
+      color: #FFFFFF;
+  }
+  .wait{
+    display: flex;
+      align-items: center;
+      position: absolute;
+      width: 75%;
+      height: 2.875rem;
+      left: 3rem;
+      top: 18rem;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.1rem;
+      line-height: 129.5%;
+      color: #FFFFFF;
+  }
+  .timer{
+    display: flex;
+    position: absolute;
+  width: max-content;
+  padding: 0 17px;
+  height: 2.6rem;
+  left: 3rem;
+  top: 24rem;
+
+  background: #DE1212;
+  border-radius: 4px;
+  }
+  .timer p{
+    color: white;
+    font-size: 1rem;
+    margin: auto;
+  }
+}
+@media (max-width: 646px){
+  .dabbaek{
+    margin-top: 70px;
+    /* min-height: 300px; */
+    height: 200px;
+  }
+}
+
 /* .product-price-btn button { */
   /* float: right; */
   /* display: inline-block;
