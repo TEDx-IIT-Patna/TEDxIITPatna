@@ -1,14 +1,16 @@
 /* Base */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
   line-height: 1.7;
   color: #4d4d4d;
   font-weight: 400;
   font-size: 0.9rem;
-  font-family: "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas,
-    "Liberation Mono", "Courier New", monospace;
-  font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  /* font-family: "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace; */
+  /* font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -2485,10 +2487,11 @@ marquee > h2 {
 }
 
 .product-img img {
-  border-radius: 7px 0 0 7px;
+  /* border-radius: 7px 0 0 7px; */
   width: 920px;
   height: inherit;
-
+  border:15px solid #d6d4d4;
+  border-right: none;
 }
 
 .product-info {
@@ -2497,7 +2500,8 @@ marquee > h2 {
   width: 300px;
   /* border: #000 solid;
   border-bottom: #000 solid 2px; */
-  border-radius: 7px;
+  /* border-radius: 7px; */
+  border: 15px solid #d6d4d4;
   overflow: hidden;
   margin-left: 0px;
 
@@ -2507,6 +2511,8 @@ marquee > h2 {
 .product-text {
   height: 300px;
   width: 327px;
+  margin-left: -20px;
+
 }
 
 .product-text h1 {
@@ -2522,7 +2528,7 @@ marquee > h2 {
 }
 
 .product-text h2 {
-  margin: 0 0 47px 38px;
+  margin: 0 0 25px 38px;
   font-size: 13px;
   /* font-family: 'Raleway', sans-serif; */
   font-weight: 400;
@@ -2546,7 +2552,7 @@ marquee > h2 {
   height: 103px;
   width: 327px;
   margin-top: -15px;
-  margin-left: -10px;
+  margin-left: -35px;
   position: relative;
   overflow: hidden;
   /* border: solid black 3px !important; */
@@ -2592,7 +2598,14 @@ span {
 .br2{
   display: none;
 }
+
+
+@media (min-device-width:1600px) {
+
+}
 @media (max-device-width:1600px) {
+
+
   .product-img{
     width: 730px;
   }
@@ -2680,6 +2693,7 @@ span {
  .product-img{
    margin-left: calc(100px -30%);
    width: 450px;
+   background-image: none;
  }
  .product-img img{
   background-image: url(/images/470x400.png);
@@ -2716,6 +2730,10 @@ span {
     /* margin: 0px; */
   }
 
+  .product-price-btn{
+    margin-left: -15px;
+  }
+
     .wmer1{
       margin-left: 0px;
       overflow-x: hidden;
@@ -2725,13 +2743,22 @@ span {
   .mer2{
     display:block;
     position: relative;
-    width: 100%;
-    left: 60%;
-    transform: translateX(-60%);
+    width: 365px;
+    height: 350px !important;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
   }
   .product-text p{
     width: 600px;
     margin-top: -30px;
+    /* margin-left: 50px; */
+  }
+
+  .product-text {
+
+    margin-left: 0px;
+    /* margin-left: 50px; */
   }
   .product-img{
     float: none;
@@ -2760,24 +2787,34 @@ span {
 
   }
   .mer2img img{
-    width: 100%;
+    width: 90%;
     min-height: 400px;
-    max-height: 440px;
+    max-height: 400px;
+    margin-left: auto !important;
+    margin-right: auto !important;
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    /* left: 50%;
+    transform: translateX(-50%); */
     /* margin: auto; */
+
+    border-right: 15px solid #d6d4d4;
 
     overflow: visible;
     background-image: url(/images/470x400.png) !important;
   }
 
   .btnmerch2{
-    margin-top: -140px;
+    margin-top: -30px;
   }
    .mer2{
      height: 230px;
    }
+
+
+   .product-text{
+     margin-top: -20px;
+   }
+
 
  }
  @media (max-device-width:600px) {
@@ -2824,7 +2861,17 @@ span {
  }
  .product-text p{
    width: 100%;
+   margin-top: 0px !important;
  }
+ .product-text {
+
+  margin-left: -20px;
+  /* margin-left: 50px; */
+}
+
+.product-price-btn{
+  margin-left: -35px;
+}
  .product-img{
    float: none;
    overflow: visible;
@@ -2863,20 +2910,25 @@ span {
    overflow: visible;
 
  }
+
+ .product-text{
+  margin-top: 0px;
+}
 }
 
 
  .dodabba{
 width: auto;
-height: 60.813rem;
+height: 50.813rem;
 display: flex;
 flex-direction: row;
+margin-top: 70px;
 }
 .dabbaek{
   display: flex;
   width: 50%;
-  height: 60.813rem;
-  background: #2C2B2B;
+  /* height: 50.813rem; */
+  background: #000000;
 }
 .dabbaekek{
   display: flex;
@@ -2889,9 +2941,9 @@ flex-direction: row;
   width: 9.625rem;
   height: 6rem;
   left: 5rem;
-  top: 15.134rem;
+  top: 9.134rem;
 
-  font-family: Poppins;
+  /* font-family: "icomoon"; */
   font-style: normal;
   font-weight: bold;
   font-size: 5rem;
@@ -2904,13 +2956,13 @@ flex-direction: row;
   align-items: center;
   position: absolute;
 width: 30.625rem;
-height: 6.25rem;
+/* height: 6.25rem; */
 left: 5rem;
-top: 25.41rem;
+top: 18.41rem;
 
-font-family: Poppins;
+/* font-family: "icomoon"; */
 font-style: normal;
-font-weight: 600;
+font-weight: 500;
 font-size: 4rem;
 line-height: 104%;
 /* or 50px */
@@ -2923,14 +2975,14 @@ color: #FFFFFF;
   align-items: center;
   position: absolute;
   width: 35%;
-  height: 2.875rem;
+  /* height: 2.875rem; */
   left: 5rem;
-  top: 38.583rem;
+  top: 30.583rem;
 
-  font-family: Poppins;
+  /* font-family: "icomoon"; */
   font-style: normal;
   font-weight: normal;
-  font-size: 2rem;
+  font-size: 1.7rem;
   line-height: 129.5%;
   /* or 23px */
 
@@ -2943,7 +2995,7 @@ color: #FFFFFF;
 width: 20.594rem;
 height: 5.6rem;
 left: 5rem;
-top: 50.541rem;
+top: 45.541rem;
 
 background: #DE1212;
 border-radius: 4px;
@@ -2951,14 +3003,20 @@ border-radius: 4px;
 .dabbado{
   display: flex;
   width: 50%;
-  height: 60.813rem;
-  background: #DE1212;
+  /* height: 50.813rem; */
+  background: #000000;
 
+}
+.gif{
+  width: 100%
 }
 
 .giffy{
   width: 100%;
   height: 100%
+}
+.mob{
+  display: none;
 }
 tr{
   color: white;
@@ -2969,13 +3027,19 @@ tr{
   font-size: 2.5rem;
   margin: auto;
 }
+.mob{
+  display: none;
+}
 @media (max-width: 992px){
   .dodabba{
     flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 100px;
   }
   .dabbaek{
     width: 100%;
     flex-direction: column;
+    height: 350px;
   }
   .dabbaekek{
     display: flex;
@@ -2985,6 +3049,7 @@ tr{
   }
   .dabbado{
     width: 100%;
+    height: 400px;
   }
   .roar{
     display: flex;
@@ -2995,7 +3060,7 @@ tr{
     left: 5rem;
     top: 5.134rem;
 
-    font-family: Poppins;
+    /* font-family: "icomoon"; */
     font-style: normal;
     font-weight: bold;
     font-size: 4rem;
@@ -3012,9 +3077,9 @@ tr{
   left: 5rem;
   top: 10rem;
 
-  font-family: Poppins;
+  /* font-family: "icomoon"; */
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 3rem;
   line-height: 104%;
   /* or 50px */
@@ -3031,7 +3096,7 @@ tr{
     left: 5rem;
     top: 16.583rem;
 
-    font-family: Poppins;
+    /* font-family: "icomoon"; */
     font-style: normal;
     font-weight: normal;
     font-size: 1.1rem;
@@ -3045,10 +3110,10 @@ tr{
 .timer{
   display: flex;
   position: absolute;
-width: 25%;
+width: 20%;
 height: 6%;
-left: 66%;
-top: 45%;
+left: 70%;
+top: 16.583rem;
 background: #DE1212;
 border-radius: 4px;
 }
@@ -3057,8 +3122,22 @@ border-radius: 4px;
   font-size: 1.5rem;
   margin: auto;
 }
+.gif{
+  width: 100%
+  height: 100%
+}
+ .giffy{
+  display: none;
+}
+ .mob{
+  display: block;
+  width: 100%
+}
 }
 @media (max-width: 768px){
+  .dodabba{
+    margin-top: 0;
+  }
   .acoustic{
     font-size:
   }
@@ -3077,7 +3156,7 @@ border-radius: 4px;
     height: 6rem;
     left: 3rem;
     top: 6rem;
-    font-family: Poppins;
+    /* font-family: "icomoon"; */
     font-style: normal;
     font-weight: bold;
     font-size: 4rem;
@@ -3092,9 +3171,9 @@ border-radius: 4px;
       height: 6.25rem;
       left: 3rem;
       top: 11rem;
-      font-family: Poppins;
+      /* font-family: "icomoon"; */
       font-style: normal;
-      font-weight: 600;
+      font-weight: 500;
       font-size: 2.5rem;
       line-height: 104%;
       color: #FFFFFF;
@@ -3107,7 +3186,7 @@ border-radius: 4px;
       height: 2.875rem;
       left: 3rem;
       top: 18rem;
-      font-family: Poppins;
+      /* font-family: "icomoon"; */
       font-style: normal;
       font-weight: normal;
       font-size: 1.1rem;
@@ -3131,14 +3210,14 @@ border-radius: 4px;
     font-size: 1rem;
     margin: auto;
   }
+   .giffy{
+     display: block;
+   }
+   .mob{
+     display: none;
+   }
 }
-@media (max-width: 646px){
-  .dabbaek{
-    margin-top: 70px;
-    /* min-height: 300px; */
-    height: 200px;
-  }
-}
+
 
 /* .product-price-btn button { */
   /* float: right; */
