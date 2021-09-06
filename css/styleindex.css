@@ -2036,12 +2036,12 @@ font-family: "icomoon";
   color: black;
 }
 .logo {
-  width:330px;
-  height:70px;
-  position: fixed;
-  top: 3px;
-  left: 2px;
-}
+    width: 330px;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 40px;
+  }
 @media only screen and (max-width:991.98px){
   #kala {
     font-size: 20px;
@@ -2995,7 +2995,7 @@ color: #FFFFFF;
 width: 20.594rem;
 height: 5.6rem;
 left: 5rem;
-top: 40.541rem;
+top: 45.541rem;
 
 background: #DE1212;
 border-radius: 4px;
