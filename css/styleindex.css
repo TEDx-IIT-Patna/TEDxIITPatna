@@ -2048,8 +2048,10 @@ font-family: "icomoon";
     padding-left: 20px;
     display: none;
   }
-  .logo{
+  .logo {
     width: 290px;
+    left: 5px;
+    top: 3.5px;
   }
 marquee > h2 {
 display: inline;
@@ -2074,9 +2076,7 @@ marquee > h2 {
     font-size: 15px;
     text-transform: uppercase;
   }
-  .logo{
-    width: 290px;
-  }
+
   .gora{
     display: none;
   }
@@ -3165,6 +3165,7 @@ border-radius: 4px;
 @media (max-width: 768px){
  .dodabba{
    margin-top: 0;
+   margin-bottom: 150px;
  }
  .acoustic{
    font-size:
