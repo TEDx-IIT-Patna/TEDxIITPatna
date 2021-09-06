@@ -2996,7 +2996,7 @@ width: 20.594rem;
 height: 5.6rem;
 left: 5rem;
 top:34rem;
-background:black;
+/* background:black; */
 }
 .timer2 p{
  font-size: 1.7rem;
@@ -3128,7 +3128,7 @@ tr{
  height: 6%;
  left: 70%;
  top: 13.583rem;
- background: black;
+/*  background: black; */
  border-radius: 4px;
  }
  .timer2 p{
@@ -3228,7 +3228,7 @@ border-radius: 4px;
  height: 2.6rem;
  left: 3rem;
  top: 22rem;
- background: black;
+/*  background: black; */
  border-radius: 4px;
  }
  .timer2 p{
