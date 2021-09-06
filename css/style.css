@@ -9,7 +9,7 @@ body {
   font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-
+  /* font-family: 'Poppins', sans-serif; */
 }
 
 ::-moz-selection {
@@ -633,8 +633,8 @@ a:hover {
   font-size: 20px;
 }
 .site-mobile-menu .site-nav-wrap > li > a {
-    padding-left: 20px;
-    font-size: 20px;
+  padding-left: 20px;
+  font-size: 20px;
 }
 .site-mobile-menu .site-nav-wrap > li > ul {
   padding: 0;
@@ -713,14 +713,13 @@ a:hover {
   font-weight: 900;
 }
 
-
 .site-navbar-wrap a:link {
-    color: #3c3636d1;
-    /* padding: 10px; */
+  color: #3c3636d1;
+  /* padding: 10px; */
 }
 .site-navbar-wrap a:hover {
-    color: black;
-    /* padding: 10px; */
+  color: black;
+  /* padding: 10px; */
 }
 
 @media (min-width: 1000px) {
@@ -787,16 +786,12 @@ a:hover {
   border-color: #1f1f1f;
 }
 
-
-
 .hvr:hover {
   background-color: #fff;
   color: #1f1f1f;
   border-radius: 200px;
   border-color: #fff;
 }
-
-
 
 .site-block-appointment {
   background: #ece8d9 !important;
@@ -887,7 +882,6 @@ a:hover {
   .site-block-half .image {
     margin-bottom: 50px;
   }
-
 }
 
 .site-block-half .text {
@@ -903,12 +897,12 @@ a:hover {
   .site-block-half .text {
     padding: 8rem;
   }
-  .site-navbar-wrap>.container {
+  .site-navbar-wrap > .container {
     min-width: 1100px;
-  max-width: 1800px !important;
-  margin-right: -70px !important;
-  /* margin-left: 0px !important; */
-}
+    max-width: 1800px !important;
+    margin-right: -70px !important;
+    /* margin-left: 0px !important; */
+  }
 }
 
 .site-block-half .bg-image {
@@ -1663,7 +1657,6 @@ a:hover {
 .block-schedule .container {
   position: relative;
   z-index: 10;
-
 }
 .block-schedule .row-wrap {
   margin-left: 15px;
@@ -1736,9 +1729,9 @@ a:hover {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   padding: 20px;
   text-align: center;
   -webkit-transition: 0.3s all ease;
@@ -1878,7 +1871,6 @@ a:hover {
 }
 
 .hv {
-
   overflow: hidden;
   position: relative;
   z-index: 0;
@@ -1889,7 +1881,7 @@ a:hover {
 }
 
 .hv img {
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .effect {
@@ -1901,8 +1893,8 @@ a:hover {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: all .5s ease;
-  background-color: rgba(31,31,31,0.7);
+  transition: all 0.5s ease;
+  background-color: rgba(31, 31, 31, 0.7);
 }
 
 .hv:hover .effect {
@@ -1910,7 +1902,7 @@ a:hover {
 }
 
 .hv:hover .namespons {
-  animation: upgo .5s;
+  animation: upgo 0.5s;
 }
 
 .texthv {
@@ -1940,59 +1932,62 @@ a:hover {
 }
 
 @keyframes upgo {
-  0%   { transform: translateY(50%);}
-  100% { transform: translateY(0);}
+  0% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
-.dropdown{
+.dropdown {
   position: static;
 }
 @media (min-width: 992px) {
-  .dropdown-toggle{
-    transition: all 0.3s
-    cubic-bezier(0.5, 1, 0.7, 1);
+  .dropdown-toggle {
+    transition: all 0.3s cubic-bezier(0.5, 1, 0.7, 1);
   }
 }
-.visible{
+.visible {
   height: 100px;
 }
-#GALLERY{
-color: #3c3636d1;
-text-transform: uppercase;
-position: absolute;
-content: "\e313";
-font-size: 16px;
-top: 50%;
-right: 0;
--webkit-transform: translateY(-50%);
--ms-transform: translateY(-50%);
-transform: translateY(-50%);
-font-family: "icomoon";
+#GALLERY {
+  color: #3c3636d1;
+  text-transform: uppercase;
+  position: absolute;
+  content: "\e313";
+  font-size: 16px;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-family: "icomoon";
 }
-#GALLERY a:hover{
+#GALLERY a:hover {
   color: black;
 }
-#kala{
+#kala {
   text-transform: uppercase;
   padding: 10px;
 }
-#kala:hover{
+#kala:hover {
   color: black;
 }
 .logo {
-  width:330px;
-  height:70px;
+  width: 330px;
+  height: 70px;
   position: fixed;
   top: 0;
   left: 40px;
 }
-@media only screen and (max-width:991.98px){
+@media only screen and (max-width: 991.98px) {
   #kala {
     font-size: 20px;
     text-transform: none;
     padding-left: 20px;
     display: none;
   }
-  .logo{
+  .logo {
     width: 290px;
     left: 5px;
     top: 6px;
@@ -2003,25 +1998,25 @@ font-family: "icomoon";
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     min-width: 100%;
     width: 100%;
   }
 }
-@media only screen and (min-width:991.98px){
+@media only screen and (min-width: 991.98px) {
   #kala {
     font-size: 15px;
     text-transform: uppercase;
   }
-  .gora{
+  .gora {
     display: none;
   }
   .dropdown-content {
     color: #f7f9fa;
     position: absolute;
     background-color: #f1f1f1;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     min-width: 100%;
     width: 100%;
@@ -2047,7 +2042,7 @@ font-family: "icomoon";
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   min-width: 80px;
   width: 100%;
@@ -2075,25 +2070,27 @@ font-family: "icomoon";
   padding-right: 0;
 }
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
 @media (min-device-width: 1200px) {
-  .site-navbar{
+  .site-navbar {
     margin-left: -100px;
   }
 }
 @media (min-device-width: 1400px) {
-  .site-navbar{
+  .site-navbar {
     margin-left: -50px;
   }
 }
 @media (min-device-width: 1600px) {
-  .site-navbar{
+  .site-navbar {
     margin-left: 50px;
   }
 }
 
 @media (min-device-width: 1700px) {
-  .site-navbar{
+  .site-navbar {
     margin-left: 100px;
   }
 }
