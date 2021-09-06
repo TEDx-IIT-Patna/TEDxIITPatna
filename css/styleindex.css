@@ -1,17 +1,16 @@
 /* Base */
-  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
   line-height: 1.7;
   color: #4d4d4d;
   font-weight: 400;
   font-size: 0.9rem;
   /* font-family: "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas,
-    "Liberation Mono", "Courier New", monospace; */
-  /* font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Liberation Mono", "Courier New", monospace;
+  font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
     font-family: 'Poppins', sans-serif;
-
 }
 
 ::-moz-selection {
@@ -2036,12 +2035,12 @@ font-family: "icomoon";
   color: black;
 }
 .logo {
-    width: 330px;
-    height: 70px;
-    position: fixed;
-    top: 0;
-    left: 40px;
-  }
+  width: 330px;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 40px;
+}
 @media only screen and (max-width:991.98px){
   #kala {
     font-size: 20px;
@@ -2917,7 +2916,7 @@ span {
 }
 
 
- .dodabba{
+.dodabba{
 width: auto;
 height: 50.813rem;
 display: flex;
@@ -2925,40 +2924,40 @@ flex-direction: row;
 margin-top: 70px;
 }
 .dabbaek{
-  display: flex;
-  width: 50%;
-  /* height: 50.813rem; */
-  background: #000000;
+ display: flex;
+ width: 50%;
+ /* height: 50.813rem; */
+ background: #000000;
 }
 .dabbaekek{
-  display: flex;
-  flex-direction: column;
+ display: flex;
+ flex-direction: column;
 }
 .roar{
-  /* display: flex; */
-  align-items: center;
-  position: absolute;
-  width: 9.625rem;
-  height: 6rem;
-  left: 5rem;
-  top: 9.134rem;
+ /* display: flex; */
+ align-items: center;
+ position: absolute;
+ width: 9.625rem;
+ height: 6rem;
+ left: 5rem;
+ top: 9.134rem;
 
-  /* font-family: "icomoon"; */
-  font-style: normal;
-  font-weight: bold;
-  font-size: 5rem;
-  line-height: 6rem;
-  /* identical to box height */
-  color: #FFFFFF;
+ /* font-family: "icomoon"; */
+ font-style: normal;
+ font-weight: bold;
+ font-size: 5rem;
+ line-height: 6rem;
+ /* identical to box height */
+ color: #FFFFFF;
 }
 .acoustic{
-  /* display: flex; */
-  align-items: center;
-  position: absolute;
+ /* display: flex; */
+ align-items: center;
+ position: absolute;
 width: 30.625rem;
 /* height: 6.25rem; */
 left: 5rem;
-top: 18.41rem;
+top: 16.41rem;
 
 /* font-family: "icomoon"; */
 font-style: normal;
@@ -2971,145 +2970,174 @@ line-height: 104%;
 color: #FFFFFF;
 }
 .wait{
-  /* display: flex; */
-  align-items: center;
-  position: absolute;
-  width: 35%;
-  /* height: 2.875rem; */
-  left: 5rem;
-  top: 30.583rem;
+ /* display: flex; */
+ align-items: center;
+ position: absolute;
+ width: 35%;
+ /* height: 2.875rem; */
+ left: 5rem;
+ top: 26.583rem;
 
-  /* font-family: "icomoon"; */
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.7rem;
-  line-height: 129.5%;
-  /* or 23px */
+ /* font-family: "icomoon"; */
+ font-style: normal;
+ font-weight: normal;
+ font-size: 1.7rem;
+ line-height: 129.5%;
+ /* or 23px */
 
 
-  color: #FFFFFF;
+ color: #FFFFFF;
 }
-.timer{
-  display: flex;
-  position: absolute;
+
+.timer2{
+ display: flex;
+ position: absolute;
 width: 20.594rem;
 height: 5.6rem;
 left: 5rem;
-top: 45.541rem;
+top:38rem;
+background:black;
+}
+.timer2 p{
+ font-size: 1.7rem;
+ color: white;
+ margin: auto;
+}
+
+.timer{
+ display: flex;
+ position: absolute;
+width: 20.594rem;
+height: 5.6rem;
+left: 5rem;
+top: 42.541rem;
 
 background: #DE1212;
 border-radius: 4px;
 }
 .dabbado{
-  display: flex;
-  width: 50%;
-  /* height: 50.813rem; */
-  background: #000000;
+ display: flex;
+ width: 50%;
+ /* height: 50.813rem; */
+ background: #000000;
 
 }
 .gif{
-  width: 100%
+ width: 100%
 }
 
 .giffy{
-  width: 100%;
-  height: 100%
+ width: 100%;
+ height: 100%
 }
 .mob{
-  display: none;
+ display: none;
 }
 tr{
-  color: white;
-  font-size: 3.5rem;
+ color: white;
+ font-size: 3.5rem;
 }
 .timer p{
-  color: white;
-  font-size: 2.5rem;
-  margin: auto;
+ color: white;
+ font-size: 2.5rem;
+ margin: auto;
 }
 .mob{
-  display: none;
+ display: none;
 }
 @media (max-width: 992px){
-  .dodabba{
-    flex-direction: column;
-    margin-top: 30px;
-    margin-bottom: 100px;
-  }
-  .dabbaek{
-    width: 100%;
-    flex-direction: column;
-    height: 350px;
-  }
-  .dabbaekek{
-    display: flex;
-  }
-  .dabbaekdo{
-    display: flex;
-  }
-  .dabbado{
-    width: 100%;
-    height: 400px;
-  }
-  .roar{
-    display: flex;
-    align-items: center;
-    position: absolute;
-    width: 9.625rem;
-    height: 6rem;
-    left: 5rem;
-    top: 5.134rem;
+ .dodabba{
+   flex-direction: column;
+   margin-top: 30px;
+   margin-bottom: 100px;
+ }
+ .dabbaek{
+   width: 100%;
+   flex-direction: column;
+   height: 350px;
+ }
+ .dabbaekek{
+   display: flex;
+ }
+ .dabbaekdo{
+   display: flex;
+ }
+ .dabbado{
+   width: 100%;
+   height: 400px;
+ }
+ .roar{
+   display: flex;
+   align-items: center;
+   position: absolute;
+   width: 9.625rem;
+   height: 6rem;
+   left: 5rem;
+   top: 5.134rem;
 
-    /* font-family: "icomoon"; */
-    font-style: normal;
-    font-weight: bold;
-    font-size: 4rem;
-    line-height: 6rem;
-    /* identical to box height */
-    color: #FFFFFF;
-  }
-  .acoustic{
-    display: flex;
-    align-items: center;
-    position: absolute;
-  /* width: 30.625rem; */
-  height: 6.25rem;
-  left: 5rem;
-  top: 10rem;
+   /* font-family: "icomoon"; */
+   font-style: normal;
+   font-weight: bold;
+   font-size: 4rem;
+   line-height: 6rem;
+   /* identical to box height */
+   color: #FFFFFF;
+ }
+ .acoustic{
+   display: flex;
+   align-items: center;
+   position: absolute;
+ /* width: 30.625rem; */
+ height: 6.25rem;
+ left: 5rem;
+ top: 10rem;
 
-  /* font-family: "icomoon"; */
-  font-style: normal;
-  font-weight: 500;
-  font-size: 3rem;
-  line-height: 104%;
-  /* or 50px */
-
-
-  color: #FFFFFF;
-  }
-  .wait{
-    display: flex;
-    align-items: center;
-    position: absolute;
-    /* width: 35%; */
-    height: 2.875rem;
-    left: 5rem;
-    top: 16.583rem;
-
-    /* font-family: "icomoon"; */
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.1rem;
-    line-height: 129.5%;
-    /* or 23px */
+ /* font-family: "icomoon"; */
+ font-style: normal;
+ font-weight: 500;
+ font-size: 3rem;
+ line-height: 104%;
+ /* or 50px */
 
 
-    color: #FFFFFF;
-  }
+ color: #FFFFFF;
+ }
+ .wait{
+   display: flex;
+   align-items: center;
+   position: absolute;
+   /* width: 35%; */
+   height: 2.875rem;
+   left: 5rem;
+   top: 16.583rem;
+
+   /* font-family: "icomoon"; */
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.1rem;
+   line-height: 129.5%;
+   /* or 23px */
+
+
+   color: #FFFFFF;
+ }
+ .timer2{
+   display: flex;
+   position: absolute;
+ width: 20%;
+ height: 6%;
+ left: 70%;
+ top: 13.583rem;
+ background: black;
+ border-radius: 4px;
+ }
+ .timer2 p{
+   font-size: 1.1rem;
+ }
 
 .timer{
-  display: flex;
-  position: absolute;
+ display: flex;
+ position: absolute;
 width: 20%;
 height: 6%;
 left: 70%;
@@ -3118,107 +3146,121 @@ background: #DE1212;
 border-radius: 4px;
 }
 .timer p{
-  color: white;
-  font-size: 1.5rem;
-  margin: auto;
+ color: white;
+ font-size: 1.5rem;
+ margin: auto;
 }
 .gif{
-  width: 100%
-  height: 100%
+ width: 100%
+ height: 100%
 }
- .giffy{
-  display: none;
+.giffy{
+ display: none;
 }
- .mob{
-  display: block;
-  width: 100%
+.mob{
+ display: block;
+ width: 100%
 }
 }
 @media (max-width: 768px){
-  .dodabba{
-    margin-top: 0;
-  }
-  .acoustic{
-    font-size:
-  }
-  .dabbaek{
-    margin-top: 70px;
-    min-height: 380px;
-  }
-  .dabbado{
-    top: 700px;
-  }
-  .roar{
-    display: flex;
-    align-items: center;
-    position: absolute;
-    width: 9.625rem;
-    height: 6rem;
-    left: 3rem;
-    top: 6rem;
-    /* font-family: "icomoon"; */
-    font-style: normal;
-    font-weight: bold;
-    font-size: 4rem;
-    line-height: 6rem;
-    color: #FFFFFF;
-  }
-  .acoustic{
-    display: flex;
-      align-items: center;
-      position: absolute;
-      width: 69%;
-      height: 6.25rem;
-      left: 3rem;
-      top: 11rem;
-      /* font-family: "icomoon"; */
-      font-style: normal;
-      font-weight: 500;
-      font-size: 2.5rem;
-      line-height: 104%;
-      color: #FFFFFF;
-  }
-  .wait{
-    display: flex;
-      align-items: center;
-      position: absolute;
-      width: 75%;
-      height: 2.875rem;
-      left: 3rem;
-      top: 18rem;
-      /* font-family: "icomoon"; */
-      font-style: normal;
-      font-weight: normal;
-      font-size: 1.1rem;
-      line-height: 129.5%;
-      color: #FFFFFF;
-  }
-  .timer{
-    display: flex;
-    position: absolute;
-  width: max-content;
-  padding: 0 17px;
-  height: 2.6rem;
-  left: 3rem;
-  top: 24rem;
+ .dodabba{
+   margin-top: 0;
+ }
+ .acoustic{
+   font-size:
+ }
+ .dabbaek{
+   margin-top: 70px;
+   min-height: 380px;
+ }
+ .dabbado{
+   top: 700px;
+ }
+ .roar{
+   display: flex;
+   align-items: center;
+   position: absolute;
+   width: 9.625rem;
+   height: 6rem;
+   left: 3rem;
+   top: 6rem;
+   /* font-family: "icomoon"; */
+   font-style: normal;
+   font-weight: bold;
+   font-size: 4rem;
+   line-height: 6rem;
+   color: #FFFFFF;
+ }
+ .acoustic{
+   display: flex;
+     align-items: center;
+     position: absolute;
+     width: 69%;
+     height: 6.25rem;
+     left: 3rem;
+     top: 11rem;
+     /* font-family: "icomoon"; */
+     font-style: normal;
+     font-weight: 500;
+     font-size: 2.5rem;
+     line-height: 104%;
+     color: #FFFFFF;
+ }
+ .wait{
+   display: flex;
+     align-items: center;
+     position: absolute;
+     width: 75%;
+     height: 2.875rem;
+     left: 3rem;
+     top: 18rem;
+     /* font-family: "icomoon"; */
+     font-style: normal;
+     font-weight: normal;
+     font-size: 0.9rem;
+     line-height: 129.5%;
+     color: #FFFFFF;
+ }
+ .timer2{
+   display: flex;
+   position: absolute;
+ width: max-content;
+ height: 2.6rem;
+ left: 3rem;
+ top: 22rem;
+ background: black;
+ border-radius: 4px;
+ }
+ .timer2 p{
+   font-size: 0.9rem;
+ }
+ .timer{
+   display: flex;
+   position: absolute;
+ width: max-content;
+ padding: 0 17px;
+ height: 2.6rem;
+ left: 3rem;
+ top: 24rem;
 
-  background: #DE1212;
-  border-radius: 4px;
+ background: #DE1212;
+ border-radius: 4px;
+ }
+ .timer p{
+   color: white;
+   font-size: 1rem;
+   margin: auto;
+ }
+  .giffy{
+    display: block;
   }
-  .timer p{
-    color: white;
-    font-size: 1rem;
-    margin: auto;
+  .mob{
+    display: none;
   }
-   .giffy{
-     display: block;
-   }
-   .mob{
-     display: none;
-   }
 }
-
-
+.icon-menu:before {
+    content: "\e5d2";
+}
 /* .product-price-btn button { */
   /* float: right; */
   /* display: inline-block;
