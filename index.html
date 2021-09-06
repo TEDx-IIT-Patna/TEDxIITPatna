@@ -26,7 +26,9 @@
   <link rel="icon" type="image/png" href="images/icon.png" />
   <link rel="stylesheet" href="css/pricing.css" />
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <style>
   .theme{
     /* background:url('images/theme1min.png') 50% 100px no-repeat fixed; */
@@ -49,12 +51,13 @@
     font-weight: 700;
     }
 }
+.mySlides {display:none;}
 
   </style>
 
 </head>
 
-<body style="background: white;">
+<body style="background: #F1EEEE;">
   <div id="fb-root"></div>
   <script>
     (function (d, s, id) {
@@ -87,7 +90,7 @@
              <div class="row align-items-center">
                <div class="col-2">
                  <h2 class="mb-0 site-logo">
-                   <a href="index.html"><img class="logo" style="width: 330px;" src="Logos/White linear.png"/></a>
+                   <a href="index.html"><img class="logo" src="Logos/White linear.png"/></a>
                  </h2>
                </div>
                <div class="col-10">
@@ -385,9 +388,30 @@
 <br>
 <br>
 
+<div class="heading-with-border ">
+  <h2 class="heading text-uppercase" style="font-size: 30px">
+    <strong><div class="prevspons">
+
+      <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+      Speakers
+    </div></strong>
+      <!-- <strong>
+        <div class="ps2">Speakers</div>
+      </strong> -->
 
 
+    </h2><br>
+</div>
 
+<div class="w3-content w3-section" style="width:100%">
+  <div><img class="mySlides" src="images/speaker/darren.png" style="width:100%"Darren Hood Principle UX Designer ></div>
+  <div><img class="mySlides" src="images/speaker/rahul.png" style="width:100%" Rahul Aggarwal Founder at Mission Oxygen, Co-Founder - Designhill></div>
+  <div><img class="mySlides" src="images/speaker/rishi.png" style="width:100%" Dr. Rishi Raj Associate Professor - IIT Patna></div>
+  <div><img class="mySlides" src="images/speaker/rupesh.png" style="width:100%" Vivek Ram, Vaanarsena CG and VFX Artist></div>
+  <div><img class="mySlides" src="images/speaker/vivek.png" style="width:100%" Yusra Mardini Swimmer, Olympian></div>
+  <div><img class="mySlides" src="images/speaker/yusra.png" style="width:100%" Rupesh Mahore Researcher & Innovator></div>
+  <div><img class="mySlides" src="images/speaker/zoya.png" style="width:100%" Captain Zoya Agarwal Aircraft Pilot, UN Spokesperson, TEDx Speaker></div>
+</div>
 
 
 
@@ -1201,6 +1225,22 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+</script>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 2500); // Change image every 2.5 seconds
+}
 </script>
   </body>
 </html>
