@@ -1699,7 +1699,20 @@ a:hover {
         z-index: 10;
         margin-left: 100px;
         }
+        .spks .container{
+          position: relative;
+          z-index: 10;
+          margin-left: 10%;
+        }
       }
+
+@media (min-width: 1400px){
+  .spks .container {
+    margin-left: 8%;
+  }
+}
+
+}
 
 }
 .block-schedule .row-wrap {
@@ -2310,7 +2323,9 @@ marquee > h2 {
       }
     }
 
+    .spks{
 
+    }
     .prevspons {
       margin-left: 10%;
     }
@@ -2457,6 +2472,12 @@ marquee > h2 {
    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15); */
    /* overflow: hidden; */
  }
+ .w3-content{
+   margin-left: 145px;
+ }
+ .w3-section{
+   margin-left: 145px;
+ }
   }
   @media (min-device-width:1350px) {
     .wrapper {
@@ -2475,6 +2496,12 @@ marquee > h2 {
      -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
      box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15); */
      /* overflow: hidden; */
+   }
+   .w3-content{
+     margin-left: 230px;
+   }
+   .w3-section{
+     margin-left: 230px;
    }
     }
 
