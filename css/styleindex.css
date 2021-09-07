@@ -1699,7 +1699,20 @@ a:hover {
         z-index: 10;
         margin-left: 100px;
         }
+        .spks .container{
+          position: relative;
+          z-index: 10;
+          margin-left: 10%;
+        }
       }
+
+@media (min-width: 1400px){
+  .spks .container {
+    margin-left: 10%;
+  }
+}
+
+}
 
 }
 .block-schedule .row-wrap {
@@ -1806,7 +1819,7 @@ a:hover {
   top: 0;
 }
 
-/*Slider*/
+/Slider/
 
 .slick-slide {
   margin: 0px 20px;
@@ -2048,8 +2061,10 @@ font-family: "icomoon";
     padding-left: 20px;
     display: none;
   }
-  .logo{
+  .logo {
     width: 290px;
+    left: 5px;
+    top: 3px;
   }
 marquee > h2 {
 display: inline;
@@ -2074,9 +2089,7 @@ marquee > h2 {
     font-size: 15px;
     text-transform: uppercase;
   }
-  .logo{
-    width: 290px;
-  }
+
   .gora{
     display: none;
   }
@@ -2310,7 +2323,9 @@ marquee > h2 {
       }
     }
 
+    .spks{
 
+    }
     .prevspons {
       margin-left: 10%;
     }
@@ -2457,6 +2472,12 @@ marquee > h2 {
    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15); */
    /* overflow: hidden; */
  }
+ .w3-content{
+   margin-left: 145px;
+ }
+ .w3-section{
+   margin-left: 145px;
+ }
   }
   @media (min-device-width:1350px) {
     .wrapper {
@@ -2475,6 +2496,15 @@ marquee > h2 {
      -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
      box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15); */
      /* overflow: hidden; */
+   }
+   .w3-content{
+     margin-left: 230px;
+   }
+   .w3-section{
+     margin-left: 230px;
+   }
+   .spks .prevspons{
+     margin-left: 6%;
    }
     }
 
@@ -2981,7 +3011,7 @@ color: #FFFFFF;
  /* font-family: "icomoon"; */
  font-style: normal;
  font-weight: normal;
- font-size: 1.7rem;
+ font-size: 1.5rem;
  line-height: 129.5%;
  /* or 23px */
 
@@ -2999,9 +3029,10 @@ top:34rem;
 /* background:black; */
 }
 .timer2 p{
- font-size: 1.7rem;
+ font-size: 1.5rem;
  color: white;
  margin: auto;
+ margin-left: 0;
 }
 
 .timer{
@@ -3165,6 +3196,7 @@ border-radius: 4px;
 @media (max-width: 768px){
  .dodabba{
    margin-top: 0;
+   margin-bottom: 150px;
  }
  .acoustic{
    font-size:
@@ -3260,6 +3292,26 @@ border-radius: 4px;
 }
 .icon-menu:before {
     content: "\e5d2";
+}
+@media (min-width:1350px) {
+.spks .heading:after{
+  margin-left:76px;
+}
+}
+@media (min-width:1600px) {
+.spks .container{
+  margin-left:9%;
+}
+}
+@media (min-width:1800px) {
+.spks .container{
+  margin-left:8%;
+}
+}
+@media (max-width:400px) {
+.spks .heading:after{
+  margin-left:70px;
+}
 }
 /* .product-price-btn button { */
   /* float: right; */
