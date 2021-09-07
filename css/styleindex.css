@@ -2981,7 +2981,7 @@ color: #FFFFFF;
  /* font-family: "icomoon"; */
  font-style: normal;
  font-weight: normal;
- font-size: 1.7rem;
+ font-size: 1.5rem;
  line-height: 129.5%;
  /* or 23px */
 
@@ -2999,9 +2999,10 @@ top:34rem;
 /* background:black; */
 }
 .timer2 p{
- font-size: 1.7rem;
+ font-size: 1.5rem;
  color: white;
  margin: auto;
+ margin-left: 0;
 }
 
 .timer{
