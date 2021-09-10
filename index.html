@@ -1332,9 +1332,11 @@ a
 
       }
     </script> -->
+
   <script>
                 // Set the date we're counting down to
-                let countDownDate = new Date("Sep 10, 2021 15:37:25").getTime();
+                let countDownDate = new Date("Sep 10, 2021 19:30:00").getTime();
+
 
                 // Update the count down every 1 second
                 let x = setInterval(function () {
@@ -1347,11 +1349,13 @@ a
 
                     let normalise = (n) => String(n).length == 2 ? String(n) : '0' + String(n);
 
+
                     // Time calculations for days, hours, minutes and seconds
                     let days = Math.floor(distance / (1000 * 60 * 60 * 24));
                     let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
                     let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
                     let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
 
                     normalise(days);
                     normalise(hours);
