@@ -450,7 +450,7 @@
               <strong><div class="prevspons">
 
                 <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-                Our Previous Sponsors
+                Our Sponsors
               </div></strong>
                 <!-- <strong>
                   <div class="ps2">Our Previous Sponsors</div>
@@ -1332,36 +1332,48 @@ a
 
       }
     </script> -->
-    <script>
-// Set the date we're counting down to
-var countDownDate = new Date("Sep 10, 2021 19:30:00").getTime();
 
-// Update the count down every 1 second
-var x = setInterval(function() {
+  <script>
+                // Set the date we're counting down to
+                let countDownDate = new Date("Sep 10, 2021 19:30:00").getTime();
 
-  // Get today's date and time
-  var now = new Date().getTime();
 
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
+                // Update the count down every 1 second
+                let x = setInterval(function () {
 
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                    // Get today's date and time
+                    let now = new Date().getTime();
 
-  // Output the result in an element with id="demo"
-                document.getElementById("demo").innerHTML ="0"+ days +":"+ "0"+hours + ":"
-                    + minutes + ":" + seconds + "";
+                    // Find the distance between now and the count down date
+                    let distance = countDownDate - now;
 
-  // If the count down is over, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "WE ARE LIVE NOW";
-  }
-}, 1000);
-</script>
+                    let normalise = (n) => String(n).length == 2 ? String(n) : '0' + String(n);
+
+
+                    // Time calculations for days, hours, minutes and seconds
+                    let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                    let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+
+                    normalise(days);
+                    normalise(hours);
+                    normalise(minutes);
+                    normalise(seconds);
+
+
+                    // Output the result in an element with id="demo"
+                    document.getElementById("demo").innerHTML=(normalise(days) +":"+ normalise(hours) + ":"
+                        + normalise(minutes) + ":" + normalise(seconds) + "");
+
+                    // If the count down is over, write some text
+                    if (distance < 0) {
+                        clearInterval(x);
+                        document.getElementById("demo").innerHTML = "WE ARE LIVE NOW";
+                    }
+                }, 1000);
+            </script>
 <script>
 var myIndex = 0;
 carousel();
