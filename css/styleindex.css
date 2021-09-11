@@ -1,15 +1,16 @@
 /* Base */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body {
   line-height: 1.7;
   color: #4d4d4d;
   font-weight: 400;
   font-size: 0.9rem;
-  font-family: "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas,
+  /* font-family: "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
   font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+    font-family: 'Poppins', sans-serif !important;
 }
 
 ::-moz-selection {
@@ -1698,7 +1699,20 @@ a:hover {
         z-index: 10;
         margin-left: 100px;
         }
+        .spks .container{
+          position: relative;
+          z-index: 10;
+          margin-left: 10%;
+        }
       }
+
+@media (min-width: 1400px){
+  .spks .container {
+    margin-left: 10%;
+  }
+}
+
+}
 
 }
 .block-schedule .row-wrap {
@@ -1805,7 +1819,7 @@ a:hover {
   top: 0;
 }
 
-/*Slider*/
+/Slider/
 
 .slick-slide {
   margin: 0px 20px;
@@ -2034,8 +2048,8 @@ font-family: "icomoon";
   color: black;
 }
 .logo {
-  width:330px;
-  height:70px;
+  width: 330px;
+  height: 70px;
   position: fixed;
   top: 0;
   left: 40px;
@@ -2047,8 +2061,10 @@ font-family: "icomoon";
     padding-left: 20px;
     display: none;
   }
-  .logo{
+  .logo {
     width: 290px;
+    left: 5px;
+    top: 3px;
   }
 marquee > h2 {
 display: inline;
@@ -2073,9 +2089,7 @@ marquee > h2 {
     font-size: 15px;
     text-transform: uppercase;
   }
-  .logo{
-    width: 290px;
-  }
+
   .gora{
     display: none;
   }
@@ -2309,7 +2323,9 @@ marquee > h2 {
       }
     }
 
+    .spks{
 
+    }
     .prevspons {
       margin-left: 10%;
     }
@@ -2456,6 +2472,12 @@ marquee > h2 {
    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15); */
    /* overflow: hidden; */
  }
+ .w3-content{
+   margin-left: 145px;
+ }
+ .w3-section{
+   margin-left: 145px;
+ }
   }
   @media (min-device-width:1350px) {
     .wrapper {
@@ -2474,6 +2496,15 @@ marquee > h2 {
      -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
      box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15); */
      /* overflow: hidden; */
+   }
+   .w3-content{
+     margin-left: 230px;
+   }
+   .w3-section{
+     margin-left: 230px;
+   }
+   .spks .prevspons{
+     margin-left: 6%;
    }
     }
 
@@ -2510,7 +2541,7 @@ marquee > h2 {
   height: 300px;
   width: 327px;
   margin-left: -20px;
-  
+
 }
 
 .product-text h1 {
@@ -2598,10 +2629,10 @@ span {
 }
 
 
-@media (min-device-width:1600px) { 
-  
+@media (min-device-width:1600px) {
+
 }
-@media (max-device-width:1600px) { 
+@media (max-device-width:1600px) {
 
 
   .product-img{
@@ -2754,7 +2785,7 @@ span {
   }
 
   .product-text {
-   
+
     margin-left: 0px;
     /* margin-left: 50px; */
   }
@@ -2812,7 +2843,7 @@ span {
    .product-text{
      margin-top: -20px;
    }
-  
+
 
  }
  @media (max-device-width:600px) {
@@ -2862,7 +2893,7 @@ span {
    margin-top: 0px !important;
  }
  .product-text {
-   
+
   margin-left: -20px;
   /* margin-left: 50px; */
 }
@@ -2915,51 +2946,52 @@ span {
 }
 
 
- .dodabba{
+.dodabba{
 width: auto;
-height: 60.813rem;
+height: 46.813rem;
 display: flex;
 flex-direction: row;
+margin-top: 70px;
 }
 .dabbaek{
-  display: flex;
-  width: 50%;
-  height: 60.813rem;
-  background: #2C2B2B;
+ display: flex;
+ width: 50%;
+ /* height: 50.813rem; */
+ background: #000000;
 }
 .dabbaekek{
-  display: flex;
-  flex-direction: column;
+ display: flex;
+ flex-direction: column;
 }
 .roar{
-  display: flex;
-  align-items: center;
-  position: absolute;
-  width: 9.625rem;
-  height: 6rem;
-  left: 5rem;
-  top: 15.134rem;
+ /* display: flex; */
+ align-items: center;
+ position: absolute;
+ width: 9.625rem;
+ height: 6rem;
+ left: 5rem;
+ top: 9.134rem;
 
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 5rem;
-  line-height: 6rem;
-  /* identical to box height */
-  color: #FFFFFF;
+ /* font-family: "icomoon"; */
+ font-style: normal;
+ font-weight: bold;
+ font-size: 5rem;
+ line-height: 6rem;
+ /* identical to box height */
+ color: #FFFFFF;
 }
 .acoustic{
-  display: flex;
-  align-items: center;
-  position: absolute;
+ /* display: flex; */
+ align-items: center;
+ position: absolute;
 width: 30.625rem;
-height: 6.25rem;
+/* height: 6.25rem; */
 left: 5rem;
-top: 25.41rem;
+top: 16.41rem;
 
-font-family: Poppins;
+/* font-family: "icomoon"; */
 font-style: normal;
-font-weight: 600;
+font-weight: 500;
 font-size: 4rem;
 line-height: 104%;
 /* or 50px */
@@ -2968,55 +3000,318 @@ line-height: 104%;
 color: #FFFFFF;
 }
 .wait{
-  display: flex;
-  align-items: center;
-  position: absolute;
-  width: 35%;
-  height: 2.875rem;
-  left: 5rem;
-  top: 38.583rem;
+ /* display: flex; */
+ align-items: center;
+ position: absolute;
+ width: 35%;
+ /* height: 2.875rem; */
+ left: 5rem;
+ top: 26.583rem;
 
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 2rem;
-  line-height: 129.5%;
-  /* or 23px */
+ /* font-family: "icomoon"; */
+ font-style: normal;
+ font-weight: normal;
+ font-size: 1.5rem;
+ line-height: 129.5%;
+ /* or 23px */
 
 
-  color: #FFFFFF;
+ color: #FFFFFF;
 }
-.timer{
-  display: flex;
-  position: absolute;
+
+.timer2{
+ display: flex;
+ position: absolute;
 width: 20.594rem;
 height: 5.6rem;
 left: 5rem;
-top: 50.541rem;
+top:34rem;
+/* background:black; */
+}
+.timer2 p{
+ font-size: 1.5rem;
+ color: white;
+ margin: auto;
+ margin-left: 0;
+}
+
+.timer{
+ display: flex;
+ position: absolute;
+width: 20.594rem;
+height: 5.6rem;
+left: 5rem;
+top: 38rem;
 
 background: #DE1212;
 border-radius: 4px;
 }
 .dabbado{
-  display: flex;
-  width: 50%;
-  height: 60.813rem;
-  background: #DE1212;
+ display: flex;
+ width: 50%;
+ /* height: 50.813rem; */
+ background: #000000;
 
+}
+.gif{
+ width: 100%
 }
 
 .giffy{
-  width: 100%;
-  height: 100%
+ width: 100%;
+ height: 100%
+}
+.mob{
+ display: none;
 }
 tr{
-  color: white;
-  font-size: 3.5rem;
+ color: white;
+ font-size: 3.5rem;
 }
 .timer p{
-  color: white;
-  font-size: 2.5rem;
-  margin: auto;
+ color: white;
+ font-size: 2rem;
+ margin: auto;
+}
+.mob{
+ display: none;
+}
+@media (max-width: 992px){
+ .dodabba{
+   flex-direction: column;
+   margin-top: 30px;
+   margin-bottom: 100px;
+ }
+ .dabbaek{
+   width: 100%;
+   flex-direction: column;
+   height: 350px;
+ }
+ .dabbaekek{
+   display: flex;
+ }
+ .dabbaekdo{
+   display: flex;
+ }
+ .dabbado{
+   width: 100%;
+   height: 400px;
+ }
+ .roar{
+   display: flex;
+   align-items: center;
+   position: absolute;
+   width: 9.625rem;
+   height: 6rem;
+   left: 5rem;
+   top: 5.134rem;
+
+   /* font-family: "icomoon"; */
+   font-style: normal;
+   font-weight: bold;
+   font-size: 4rem;
+   line-height: 6rem;
+   /* identical to box height */
+   color: #FFFFFF;
+ }
+ .acoustic{
+   display: flex;
+   align-items: center;
+   position: absolute;
+ /* width: 30.625rem; */
+ height: 6.25rem;
+ left: 5rem;
+ top: 10rem;
+
+ /* font-family: "icomoon"; */
+ font-style: normal;
+ font-weight: 500;
+ font-size: 3rem;
+ line-height: 104%;
+ /* or 50px */
+
+
+ color: #FFFFFF;
+ }
+ .wait{
+   display: flex;
+   align-items: center;
+   position: absolute;
+   /* width: 35%; */
+   height: 2.875rem;
+   left: 5rem;
+   top: 16.583rem;
+
+   /* font-family: "icomoon"; */
+   font-style: normal;
+   font-weight: normal;
+   font-size: 1.1rem;
+   line-height: 129.5%;
+   /* or 23px */
+
+
+   color: #FFFFFF;
+ }
+ .timer2{
+   display: flex;
+   position: absolute;
+ width: 20%;
+ height: 6%;
+ left: 70%;
+ top: 13.583rem;
+/*  background: black; */
+ border-radius: 4px;
+ }
+ .timer2 p{
+   font-size: 1.1rem;
+ }
+
+.timer{
+ display: flex;
+ position: absolute;
+width: 20%;
+height: 6%;
+left: 70%;
+top: 16.583rem;
+background: #DE1212;
+border-radius: 4px;
+}
+.timer p{
+ color: white;
+ font-size: 1.5rem;
+ margin: auto;
+}
+.gif{
+ width: 100%
+ height: 100%
+}
+.giffy{
+ display: none;
+}
+.mob{
+ display: block;
+ width: 100%
+}
+}
+@media (max-width: 768px){
+ .dodabba{
+   margin-top: 0;
+   margin-bottom: 150px;
+ }
+ .acoustic{
+   font-size:
+ }
+ .dabbaek{
+   margin-top: 70px;
+   min-height: 380px;
+ }
+ .dabbado{
+   top: 700px;
+ }
+ .roar{
+   display: flex;
+   align-items: center;
+   position: absolute;
+   width: 9.625rem;
+   height: 6rem;
+   left: 3rem;
+   top: 6rem;
+   /* font-family: "icomoon"; */
+   font-style: normal;
+   font-weight: bold;
+   font-size: 4rem;
+   line-height: 6rem;
+   color: #FFFFFF;
+ }
+ .acoustic{
+   display: flex;
+     align-items: center;
+     position: absolute;
+     width: 69%;
+     height: 6.25rem;
+     left: 3rem;
+     top: 11rem;
+     /* font-family: "icomoon"; */
+     font-style: normal;
+     font-weight: 500;
+     font-size: 2.5rem;
+     line-height: 104%;
+     color: #FFFFFF;
+ }
+ .wait{
+   display: flex;
+     align-items: center;
+     position: absolute;
+     width: 75%;
+     height: 2.875rem;
+     left: 3rem;
+     top: 18rem;
+     /* font-family: "icomoon"; */
+     font-style: normal;
+     font-weight: normal;
+     font-size: 0.9rem;
+     line-height: 129.5%;
+     color: #FFFFFF;
+ }
+ .timer2{
+   display: flex;
+   position: absolute;
+ width: max-content;
+ height: 2.6rem;
+ left: 3rem;
+ top: 22rem;
+/*  background: black; */
+ border-radius: 4px;
+ }
+ .timer2 p{
+   font-size: 0.9rem;
+ }
+ .timer{
+   display: flex;
+   position: absolute;
+ width: max-content;
+ padding: 0 17px;
+ height: 2.6rem;
+ left: 3rem;
+ top: 24rem;
+
+ background: #DE1212;
+ border-radius: 4px;
+ }
+ .timer p{
+   color: white;
+   font-size: 1rem;
+   margin: auto;
+ }
+  .giffy{
+    display: block;
+  }
+  .mob{
+    display: none;
+  }
+}
+.icon-menu:before {
+    content: "\e5d2";
+}
+@media (min-width:1350px) {
+.spks .heading:after{
+  margin-left:76px;
+}
+}
+@media (min-width:1600px) {
+.spks .container{
+  margin-left:9%;
+}
+}
+@media (min-width:1800px) {
+.spks .container{
+  margin-left:8%;
+}
+}
+@media (max-width:400px) {
+.spks .heading:after{
+  margin-left:70px;
+}
 }
 /* .product-price-btn button { */
   /* float: right; */
